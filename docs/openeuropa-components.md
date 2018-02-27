@@ -21,7 +21,7 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/NAME"><b>Task Runner</b></a><br/>
+            <a title="Repository" href="https://github.com/openeuropa/task-runner"><b>Task Runner</b></a><br/>
             PHP task runner based on Robo, focused on extensibility.
         </td>
         <td width="250">

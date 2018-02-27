@@ -14,9 +14,8 @@ In order to achieve such a goal the OpenEuropa Initiative will focus on the foll
 
 For more information please check:
 
-- [Architecture overview](docs/architecture-overview.md)
-- [Technical governance](docs/technical-governance.md)
 - [OpenEuropa components](docs/openeuropa-components.md)
+- [How to contribute](docs/how-to-contribute.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
