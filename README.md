@@ -18,6 +18,11 @@ For more information please check:
 - [Technical governance](docs/technical-governance.md)
 - [OpenEuropa components](docs/openeuropa-components.md)
 
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)][4]<br/>
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][4].
+
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
 [3]: https://opensource.org/licenses/EUPL-1.1
+[4]: http://creativecommons.org/licenses/by-sa/4.0
