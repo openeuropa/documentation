@@ -16,8 +16,7 @@ For more information please check:
 
 - [Architecture overview](docs/architecture-overview.md)
 - [Technical governance](docs/technical-governance.md)
-- [PHP projects](docs/php-projects.md)
-- [Drupal components](docs/drupal-components.md)
+- [OpenEuropa components](docs/openeuropa-components.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
