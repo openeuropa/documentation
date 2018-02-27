@@ -5,7 +5,7 @@ Each project complies with [PHP-FIG][1] standards and adhere to the best-practic
 
 All code is distributed on [Packagist][3] and released under the [EUPL-1.2 license][4].
 
-### PHP libraries
+### PHP projects
 
 <table>
     <tr>
@@ -76,7 +76,7 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
 </table>
 
-### Drupal components
+### Drupal projects
 
 <table>
     <tr>
@@ -105,5 +105,5 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 
 [1]: http://www.php-fig.org
 [2]: http://www.phptherightway.com
-[3]: https://packagist.org
+[3]: https://packagist.org/packages/openeuropa/
 [4]: https://joinup.ec.europa.eu/page/eupl-text-11-12
