@@ -106,4 +106,4 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 [1]: http://www.php-fig.org
 [2]: http://www.phptherightway.com
 [3]: https://packagist.org
-[4]: https://opensource.org/licenses/EUPL-1.1
+[4]: https://joinup.ec.europa.eu/page/eupl-text-11-12

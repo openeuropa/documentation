@@ -20,4 +20,4 @@ For more information please check:
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
-[3]: https://opensource.org/licenses/EUPL-1.1
+[3]: https://joinup.ec.europa.eu/page/eupl-text-11-12
