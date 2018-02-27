@@ -6,13 +6,13 @@ of [open source][2] tools and practices in consolidating the European Institutio
 
 In order to achieve such a goal the OpenEuropa Initiative will focus on the following activities:
 
-- Build, maintain and release loosely-coupled, reusable software components under the [EUPL-1.1 license][3].
-- Build, maintain and release fully-fledged solutions for European Institutions.
+- Build, maintain and release loosely-coupled, reusable software components, licensed under [EUPL-1.1][3].
+- Build, maintain and release fully-fledged solutions for the European Institutions.
 - Provide a high-level architecture overview of web-related information systems.
 - Establish reusable technical governance guidelines.
-- Contribute back to open source projects.
+- Contribute back to upstream open source projects.
 
-For more information please check the following pages:
+For more information please check:
 
 - [Architecture overview](docs/architecture-overview.md)
 - [Technical governance](docs/technical-governance.md)
