@@ -14,9 +14,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             Automated quality assurance checks based on GrumPHP.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/v/openeuropa/code-review.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/code-review"><img src="https://img.shields.io/travis/openeuropa/code-review/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/dt/openeuropa/code-review.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/v/openeuropa/code-review.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/code-review"><img src="https://img.shields.io/travis/openeuropa/code-review/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/dt/openeuropa/code-review.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -25,9 +25,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             PHP task runner based on Robo, focused on extensibility.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/v/openeuropa/task-runner.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/task-runner"><img src="https://img.shields.io/travis/openeuropa/task-runner/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/v/openeuropa/task-runner.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/task-runner"><img src="https://img.shields.io/travis/openeuropa/task-runner/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -36,9 +36,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             Twig loader for Europa Component Library, it allows to load components by accessing them via a configurable ecl-twig-loaderspace.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/v/openeuropa/ecl-twig-loader.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/travis/openeuropa/ecl-twig-loader/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/dt/openeuropa/ecl-twig-loader.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/v/openeuropa/ecl-twig-loader.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/travis/openeuropa/ecl-twig-loader/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/dt/openeuropa/ecl-twig-loader.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -47,9 +47,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             Client library for the European Commission Poetry Service.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-client.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/ec-europa/oe-poetry-client"><img src="https://img.shields.io/travis/ec-europa/oe-poetry-client/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-client.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-client.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/ec-europa/oe-poetry-client"><img src="https://img.shields.io/travis/ec-europa/oe-poetry-client/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-client.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -58,9 +58,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             Behat extension for the European Commission's Poetry Client.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-behat.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/travis/ec-europa/oe-poetry-behat/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-behat.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-behat.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/travis/ec-europa/oe-poetry-behat/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-behat.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -69,9 +69,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             PHP client for the Europa Search service.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/europa-search-client"><img src="https://img.shields.io/travis/openeuropa/europa-search-client/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/europa-search-client"><img src="https://img.shields.io/travis/openeuropa/europa-search-client/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg?maxAge=3600"/></a>
         </td>
     </tr>
 </table>
@@ -85,9 +85,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             Drupal 8 theme based on the Europa Component Library.
         </td>
         <td>
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/oe_theme"><img src="https://img.shields.io/travis/openeuropa/oe_theme/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/oe_theme"><img src="https://img.shields.io/travis/openeuropa/oe_theme/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg?maxAge=3600"/></a>
         </td>
     </tr>
     <tr>
@@ -96,9 +96,9 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.1 licen
             This module integrates the ECL, the component library of the European Commission, with the Paragraphs module.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_paragraphs"><img src="https://img.shields.io/packagist/v/openeuropa/oe_paragraphs.svg"/></a>      
-            <a title="Build" href="https://travis-ci.org/openeuropa/oe_paragraphs"><img src="https://img.shields.io/travis/openeuropa/oe_paragraphs/master.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_paragraphs"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_paragraphs.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_paragraphs"><img src="https://img.shields.io/packagist/v/openeuropa/oe_paragraphs.svg?maxAge=3600"/></a>      
+            <a title="Build" href="https://travis-ci.org/openeuropa/oe_paragraphs"><img src="https://img.shields.io/travis/openeuropa/oe_paragraphs/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_paragraphs"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_paragraphs.svg?maxAge=3600"/></a>
         </td>
     </tr>
 </table>
