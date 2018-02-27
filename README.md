@@ -2,7 +2,7 @@
 <h1 align="center">The OpenEuropa Initiative</h1>
 
 OpenEuropa is a [Directorate-General for Informatics (DIGIT)][1] initiative aiming at strengthening the adoption
-of [open source][2] tools and practices in consolidating the European Institution's web presence.
+of [open source][2] tools and practices in consolidating the European Institutions' web presence.
 
 In order to achieve such a goal the OpenEuropa Initiative will focus on the following activities:
 
