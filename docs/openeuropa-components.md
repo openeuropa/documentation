@@ -3,7 +3,7 @@
 Below the list of loosely coupled, reusable PHP projects provided by the OpenEuropa Initiative.
 Each project complies with [PHP-FIG][1] standards and adhere to the best-practices put forward by [PHP The "Right" Way][2].
 
-All code is distributed on [Packagist][3] and released under the [EUPL-1.1 license][4].
+All code is distributed on [Packagist][3] and released under the [EUPL-1.2 license][4].
 
 ### PHP libraries
 
