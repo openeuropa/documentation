@@ -1,4 +1,4 @@
-# Contributing to Atom
+# Contributing to OpenEuropa
 
 The following is a set of guidelines for contributing to OpenEuropa and its components, which are hosted in the [OpenEuropa project](https://github.com/openeuropa) GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
@@ -8,22 +8,14 @@ The following is a set of guidelines for contributing to OpenEuropa and its comp
 
 [Before getting started](#before-getting-started)
 
-
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Your First Code Contribution](#your-first-code-contribution)
+  * [Feature requests](#feature-requests)
   * [Pull Requests](#pull-requests)
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
-  * [JavaScript Styleguide](#javascript-styleguide)
-  * [CoffeeScript Styleguide](#coffeescript-styleguide)
-  * [Specs Styleguide](#specs-styleguide)
-  * [Documentation Styleguide](#documentation-styleguide)
-
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
+  * [Code styling](#code-styling)
 
 ## Code of Conduct
 
@@ -65,7 +57,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 Provide more context by answering these questions:
 
-* **Did the problem start happening recently** (e.g. after updating to a new version of Atom) or was this always a problem?
+* **Did the problem start happening recently** (e.g. after updating to a new version of the component) or was this always a problem?
 * If the problem started happening recently, **can you reproduce the problem in an older version of the component?** What's the most recent version in which the problem doesn't happen?
 * **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 
@@ -77,9 +69,9 @@ Include details about your configuration and environment:
 
 ### Feature requests
 
-This section guides you through submitting an enhancement suggestion for OpenEuropa, including completely new features and minor improvements to existing functionality.
+This section guides you through submitting a feature request for OpenEuropa, including completely new features and minor improvements to existing functionality.
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](issue-template.md), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating a feature request, please check [this list](#before-submitting-a-feature-request) as you might find out that you don't need to create one. When you are creating a feature request, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](issue-template.md), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### Before Submitting A Feature Request
 
@@ -99,8 +91,8 @@ Feature requests are tracked as [GitHub issues](https://guides.github.com/featur
 
 ### Pull Requests
 
-* Fill in [the required template](PULL_REQUEST_TEMPLATE.md)
-* Make sure to run the [Code Review component](https://github.com/openeuropa/code-review) before submitting the pull request.
+* Fill in the provided template. You can see a sample [here](pull-request-template.md)
+* Make sure include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review) before submitting the pull request.
 * End all files with a newline
 
 ## Styleguides
@@ -110,8 +102,7 @@ Feature requests are tracked as [GitHub issues](https://guides.github.com/featur
 * Start the comment with the ticket number.
 * Use the present tense ("Add feature" not "Added feature")
 * Use the imperative mood ("Move element to..." not "Moves element to...")
-* Limit the first line to 72 characters or less
-* Reference issues and pull requests liberally after the first line
+* Limit the first line to 72 characters or less.
 
 ### Code styling
 
