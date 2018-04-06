@@ -1,104 +1,126 @@
 # Contributing to OpenEuropa
 
-The following is a set of guidelines for contributing to OpenEuropa and its components, which are hosted in the [OpenEuropa project](https://github.com/openeuropa) GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to OpenEuropa and its components, which are hosted in the
+[OpenEuropa project](https://github.com/openeuropa) GitHub. These are mostly guidelines, not rules.
+Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-#### Table Of Contents
+**Table of contents**
 
-[Code of Conduct](#code-of-conduct)
-
-[Before getting started](#before-getting-started)
-
-[How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
+* [Code of conduct](#code-of-conduct)
+* [Before getting started](#before-getting-started)
+* [How can I contribute?](#how-can-i-contribute)
+  * [Reporting bugs](#reporting-bugs)
   * [Feature requests](#feature-requests)
-  * [Pull Requests](#pull-requests)
-
-[Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
+  * [Pull requests](#pull-requests)
+* [Style guide](#style-guide)
+  * [Git commit messages](#git-commit-messages)
   * [Code styling](#code-styling)
 
-## Code of Conduct
+## Code of conduct
 
-This project and everyone participating in it is governed by the [OpenEuropa Code of Conduct](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [TODO:add mail](mailto:TODO).
+This project and everyone participating in it is governed by the [OpenEuropa Code of Conduct](code-of-conduct.md).
+By participating, you are expected to uphold this code.  Please report unacceptable behavior to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
 
 ## Before getting started
 
-OpenEuropa is an open source project made up of several different components. Before you report anything please make sure you are using the correct repository for the component you are referring to. 
+OpenEuropa is an open source project made up of several different components. Before you report anything please make
+sure you are using the correct repository for the component you are referring to.
 
-The following is a comprehensive list of components built and maintained by the OpenEuropa team: [OpenEuropa component list](openeuropa-components.md)
+A comprehensive list of components built and maintained by the OpenEuropa team is available [here](openeuropa-components.md)
 
-## How Can I Contribute?
+## How can I contribute?
 
-### Reporting Bugs
+### Reporting bugs
 
-This section guides you through submitting a bug report for any OpenEuropa component. Following these guidelines helps everyone involved understand your report and react accordingly.
+This section guides you through submitting a bug report for any OpenEuropa component. Following these guidelines helps
+everyone involved to understand your report and react efficiently.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report) and use [the required template](ISSUE_TEMPLATE.md), this will allows us to resolve issues faster.
+Before creating bug reports, please check [this checklist](#before-submitting-a-bug-report) as you might find out that
+you don't actually need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report)
+and use [the required template](ISSUE_TEMPLATE.md), this will allows us to resolve issues faster.
 
+#### Before submitting a bug report
 
-#### Before Submitting A Bug Report
+* Determine [which repository the problem should be reported in](#before-getting-started).
+* Make sure the issue is really a bug and not an intended behavior by reading the component's documentation.
+* Check if you can reproduce the problem in the latest version of the related component.
+* Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the problem has
+  already been reported. If it has and the issue is still open, please add a comment to the existing issue instead of
+  opening a new one.
 
-* **Determine [which repository the problem should be reported in](#before-getting-started)**.
-* **Make sure the issue is really a bug and not an intended behavior** by carefully reading the component's documentation.
-* **Check if you can reproduce the problem in the latest version of the affected component.**
-* **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+#### How do I submit a (good) bug report?
 
-#### How Do I Submit A (Good) Bug Report?
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues). After you've determined [which repository](#before-getting-started)
+your bug is related to, create an issue on that repository and provide the following information by filling in
+[the issue template](issue-template.md).
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#before-getting-started) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](issue-template.md).
+Explain the problem and include additional details to help maintainers reproduce the issue:
 
-Explain the problem and include additional details to help maintainers reproduce the problem:
-
-* **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the exact steps which reproduce the problem** in as many details as possible.
-* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
-* **Explain which behavior you expected to see instead and why.**
-* **Include screenshots** if they help understand the steps or the result.
+* Use a clear and descriptive title that describes the problem.
+* Describe the exact steps necessary to reproduce the problem in as many details as possible.
+* Describe the behavior you observed after following the steps and point out what exactly is the problem with that
+  behavior.
+* Explain which one was the expected behavior and why.
+* When applicable include screenshots or any other supporting material.
 
 Provide more context by answering these questions:
 
-* **Did the problem start happening recently** (e.g. after updating to a new version of the component) or was this always a problem?
-* If the problem started happening recently, **can you reproduce the problem in an older version of the component?** What's the most recent version in which the problem doesn't happen?
-* **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
+* Did the problem start happening recently (e.g. after updating to a newer version of the component) or was it always a
+  problem?
+* If the problem started happening recently, can you reproduce the problem in an older version of the component?
+* What's the most recent version in which the problem does not occur?
+* Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which
+  circumstances.
 
 Include details about your configuration and environment:
 
-* **Which version of the component are you using?**
-* **What's the name and version of the browser you are using**?
-* **Which other components or modules do you have installed?**
+* Which version of the component are you using?
+* What's the name and version of the browser you are using?
+* Which other components or modules do you have installed?
 
 ### Feature requests
 
-This section guides you through submitting a feature request for OpenEuropa, including completely new features and minor improvements to existing functionality.
+This section guides you through submitting a feature request for OpenEuropa, such as completely new features or
+improvements to existing functionality.
 
-Before creating a feature request, please check [this list](#before-submitting-a-feature-request) as you might find out that you don't need to create one. When you are creating a feature request, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](issue-template.md), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating a feature request, please check [this checklist](#before-submitting-a-feature-request) as you might find
+out that you don't need to create one. When you are creating a feature request, please
+[include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion).
 
-#### Before Submitting A Feature Request
+Fill in [the issue template](issue-template.md), including the steps that you imagine you would take if the feature
+you're requesting existed.
 
-* **Check if there's already [a component](openeuropa-components.md) which provides that enhancement.**
-* **Check the project roadmap** to understand if the feature is already being planned for future releases associated dates.
-* **Determine [which repository the feature should be suggested in](#before-getting-started).**
-* **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa)** to see if the feature has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+#### Before submitting a feature request
 
-#### How Do I Submit A (Good) Feature Request?
+* Check if there's already [a component](openeuropa-components.md) which provides that enhancement.
+* Check the project roadmap to understand if the feature is already being planned for future releases associated dates.
+* Determine [which repository the feature should be suggested in](#before-getting-started).
+* Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the feature has
+  already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
-Feature requests are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#before-getting-starter) your feature suggestion is related to, create an issue on that repository and provide the following information:
+#### How do I submit a (good) feature request?
 
-* **Use a clear and descriptive title** for the issue to identify the suggestion.
-* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-* **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-* **Include screenshots** which will help demonstrate the feature you would like to include.
-* **Explain why this enhancement would be useful** to the users of the component and isn't something that can or should be implemented as a custom component.
+Feature requests are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined
+[which repository](#before-getting-starter) your feature suggestion is related to, create an issue on that repository
+and provide the following information:
 
-### Pull Requests
+* Use a clear and descriptive title for the issue to identify the suggestion.
+* Provide a step-by-step description of the suggested enhancement in as many details as possible.
+* Describe the current behavior and explain which behavior you expected to see instead and why.
+* Include screenshots which will help demonstrate the feature you would like to include.
+* Explain why this enhancement would be useful to the users of the component and isn't something that can or should be
+  implemented as a custom component.
 
-* Fill in the provided template. You can see a sample [here](pull-request-template.md)
-* Make sure include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review) before submitting the pull request.
+### Pull requests
+
+* Fill in the provided template. You can see a sample [here](#pull-request-template.md)
+* Make sure include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review)
+  before submitting the pull request.
 * End all files with a newline
 
-## Styleguides
+## Style guide
 
-### Git Commit Messages
+### Git commit messages
 
 * Start the comment with the ticket number.
 * Use the present tense ("Add feature" not "Added feature")
@@ -107,4 +129,6 @@ Feature requests are tracked as [GitHub issues](https://guides.github.com/featur
 
 ### Code styling
 
-OpenEuropa provides an specific component to enforce a series of code styling rules. Please make sure that the [Code Review component](https://github.com/openeuropa/code-review) is included in the component you are working with and that the results are all green before committing anything.
+OpenEuropa provides an specific component to enforce a series of code styling rules. Please make sure that the
+[Code Review component](https://github.com/openeuropa/code-review) is included in the component you are working with and
+that the results are all green before committing anything.
