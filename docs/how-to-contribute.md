@@ -39,7 +39,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 #### Before Submitting A Bug Report
 
 * **Determine [which repository the problem should be reported in](#before-getting-started)**.
-* **Make sure the issue is really a bug and not an intended behavior** by carefully reading the component's user manual.
+* **Make sure the issue is really a bug and not an intended behavior** by carefully reading the component's documentation.
 * **Check if you can reproduce the problem in the latest version of the affected component.**
 * **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
@@ -76,6 +76,7 @@ Before creating a feature request, please check [this list](#before-submitting-a
 #### Before Submitting A Feature Request
 
 * **Check if there's already [a component](openeuropa-components.md) which provides that enhancement.**
+* **Check the project roadmap** to understand if the feature is already being planned for future releases associated dates.
 * **Determine [which repository the feature should be suggested in](#before-getting-started).**
 * **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa)** to see if the feature has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
