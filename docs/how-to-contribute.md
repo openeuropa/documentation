@@ -19,7 +19,7 @@ Use your best judgment, and feel free to propose changes to this document in a p
 ## Code of conduct
 
 This project and everyone participating in it is governed by the [OpenEuropa Code of Conduct](code-of-conduct.md).
-By participating, you are expected to uphold this code.  Please report unacceptable behavior to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
+By participating, you are expected to uphold this code.  Please report the unacceptable behaviour to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
 
 ## Before getting started
 
@@ -42,7 +42,7 @@ and use [the required template](ISSUE_TEMPLATE.md), this will allows us to resol
 #### Before submitting a bug report
 
 * Determine [which repository the problem should be reported in](#before-getting-started).
-* Make sure the issue is really a bug and not an intended behavior by reading the component's documentation.
+* Make sure the issue is really a bug and not an intended behaviour by reading the component's documentation.
 * Check if you can reproduce the problem in the latest version of the related component.
 * Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the problem has
   already been reported. If it has and the issue is still open, please add a comment to the existing issue instead of
@@ -58,9 +58,9 @@ Explain the problem and include additional details to help maintainers reproduce
 
 * Use a clear and descriptive title that describes the problem.
 * Describe the exact steps necessary to reproduce the problem in as many details as possible.
-* Describe the behavior you observed after following the steps and point out what exactly is the problem with that
-  behavior.
-* Explain which one was the expected behavior and why.
+* Describe the behaviour you observed after following the steps and point out what exactly is the problem with that
+  behaviour.
+* Explain which one was the expected behaviour and why.
 * When applicable include screenshots or any other supporting material.
 
 Provide more context by answering these questions:
@@ -106,7 +106,7 @@ and provide the following information:
 
 * Use a clear and descriptive title for the issue to identify the suggestion.
 * Provide a step-by-step description of the suggested enhancement in as many details as possible.
-* Describe the current behavior and explain which behavior you expected to see instead and why.
+* Describe the current behaviour and explain which behaviour you expected to see instead and why.
 * Include screenshots which will help demonstrate the feature you would like to include.
 * Explain why this enhancement would be useful to the users of the component and isn't something that can or should be
   implemented as a custom component.
@@ -129,6 +129,6 @@ and provide the following information:
 
 ### Code styling
 
-OpenEuropa provides an specific component to enforce a series of code styling rules. Please make sure that the
+OpenEuropa provides a specific component to enforce a series of code styling rules. Please make sure that the
 [Code Review component](https://github.com/openeuropa/code-review) is included in the component you are working with and
 that the results are all green before committing anything.
