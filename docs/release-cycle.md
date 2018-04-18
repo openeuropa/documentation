@@ -31,7 +31,7 @@ For Drupal components, Open Europa team will have a support policy inspired by D
 - Components support current and previous Drupal Core minor versions. New minor versions for components are made compatible with these respective core versions.
 - When a new minor core version (n) is supported, the support for release n-2 is dropped. 
 
-This follows a similar release cycle proposed for Drupal Core from a security stand point and guarantees that all users of Open Europa components are running current minor release of supported Drupal Core (n) or previous (n-1).
+This follows a similar release cycle proposed for Drupal Core from a security standpoint and guarantees that all users of Open Europa components are running current minor release of supported Drupal Core (n) or previous (n-1).
 As Drupal core minor releases happen every 6 months, website and application owners should be prepared to update to every minor release at least every 6 months.
 
 ## Backwards compatibility
