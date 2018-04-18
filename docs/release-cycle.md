@@ -6,9 +6,9 @@ There will be three types of releases planned:
 
 - **MAJOR**: Incompatible API changes, very rare and planned in. 
 - **MINOR**: Adds backwards-compatible manner functionalities and bug fixes.
-- **PATCH**: Adds backwards-compatible bug / security fixes and can be deployed instantaneously. No new functionality will be introduced.
+- **PATCH**: Adds backwards-compatible bug/security fixes and can be deployed instantaneously. No new functionality will be introduced.
 
-Open Europa components release plan will not follow a fixed overall timeline and can happen in different planned slots. Each component roadmap and release plan will be made available to public.
+Open Europa components release plan will not follow a fixed overall timeline and can happen in different planned slots. Each component roadmap and release plan will be made available to the public.
 
 ## Release preparation and testing
 
@@ -21,7 +21,7 @@ This will allow to follow the same support cycle as Drupal core and be better pr
 
 When a new Drupal core minor version is released, Open Europa team commits to have a release of all its supported components compatible with it in a fixed time frame (two sprints).
 
-It is predicted that the majority of changes will come in the form of MINOR and PATCH releases. However if there is a need to change API provided by the component in a way that it is not backwards compatible a new MAJOR release can be produced. 
+It is predicted that the majority of changes will come in the form of MINOR and PATCH releases. However, if there is a need to change API provided by the component in a way that it is not backwards compatible a new MAJOR release can be produced. 
 
 Each Open Europa component will define in its dependencies the minimum requirements for components version it depends upon. Each minor version can have development, beta, and release candidate phases.
 
