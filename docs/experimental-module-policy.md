@@ -1,6 +1,6 @@
 # Drupal Core Experimental module policy
 
-Drupal 8 core introduced the concept of experimental modules.
+Drupal 8 core introduced the concept of [experimental modules][1].
 These are modules that are provided with Drupal core for testing purposes, but that are not yet fully supported.
 They offer a wide range of functionalities, from migration management
 to site layout management.
@@ -17,7 +17,7 @@ In order for OpenEuropa to provide a stable enough set of components, only exper
 in **beta state or greater** will be allowed to be used.
 
 This is done because modules in beta state have a stable API that will only be changed
-in very extreme circumstances.
+in very extreme circumstances. See the official [documentation][2] for more information on the subject.
 
 ## Experimental modules in alpha state
 
@@ -31,3 +31,5 @@ However, in such cases the components will also be labeled as experimental compo
 and as such will follow the same life cycle of the experimental module they are using. 
 This effectively means that an experimental component is subject to be deprecated and removed.
 
+[1]: https://www.drupal.org/core/experimental
+[2]: https://www.drupal.org/core/d8-allowed-changes#beta
