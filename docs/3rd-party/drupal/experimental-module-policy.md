@@ -11,7 +11,7 @@ needs to define a set of policies on their use inside OpenEuropa Components.
 ## Minimum stability required
 
 Currently the experimental modules follow the different stability levels defined by Drupal:
-alpha, beta, rc and stable.
+alpha, beta, RC and stable.
 
 In order for OpenEuropa to provide a stable enough set of components, only experimental modules
 in **beta state or greater** will be allowed to be used.
