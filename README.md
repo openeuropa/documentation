@@ -17,6 +17,9 @@ For more information please check:
 - [OpenEuropa components](docs/openeuropa-components.md)
 - [How to contribute](docs/how-to-contribute.md)
 - [Release cycle](docs/release-cycle.md)
+- 3rd party open source
+  - Drupal
+    - [Experimental module policies](docs/3rd-party/drupal/experimental-module-policy.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
