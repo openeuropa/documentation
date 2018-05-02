@@ -16,6 +16,7 @@ For more information please check:
 
 - [OpenEuropa components](docs/openeuropa-components.md)
 - [How to contribute](docs/how-to-contribute.md)
+- [Coding standards](docs/coding-standards.md)
 - [Release cycle](docs/release-cycle.md)
 - 3rd party open source
   - Drupal
