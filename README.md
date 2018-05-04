@@ -14,13 +14,41 @@ In order to achieve such a goal the OpenEuropa Initiative will focus on the foll
 
 For more information please check:
 
-- [OpenEuropa components](docs/openeuropa-components.md)
-- [How to contribute](docs/how-to-contribute.md)
-- [Coding standards](docs/coding-standards.md)
-- [Release cycle](docs/release-cycle.md)
-- 3rd party open source
-  - Drupal
-    - [Experimental module policies](docs/3rd-party/drupal/experimental-module-policy.md)
+
+* OpenEuropa initiative
+  * [Code of Conduct](docs/initiative/code-of-conduct.md) 
+  * [Release cycle](docs/initiative/release-cycle.md)
+  * [How to contribute](docs/initiative/how-to-contribute.md)
+* [OpenEuropa components](docs/openeuropa-components.md)  
+* Before you start
+  * [Repositories architecture](docs/starting/repository-architecture.md)
+  * [Dependency management](docs/starting/dependency-management-and-patching.md)
+  * [Tooling](docs/starting/tooling.md)
+* Architecture
+  * 3rd party
+    * Drupal
+      * [Content architecture](docs/architecture/3rd-party/drupal/content-architecture.md)
+      * [Layout architecture](docs/architecture/3rd-party/drupal/layout-architecture.md)  
+      * [Configuration management](docs/architecture/3rd-party/drupal/configuration-management.md)
+      * [Module selection](docs/architecture/3rd-party/drupal/selecting-contributed-modules.md)
+      * [Experimental modules policy](docs/architecture/3rd-party/drupal/experimental-module-policy.md)
+* Development
+  * [Development Workflow](docs/development/development-workflow.md)
+  * [Feature development guidelines](docs/development/feature-development.md)
+  * [Coding standards](docs/development/coding-standards.md)
+  * [Frontend development](docs/development/frontend/index.md)
+  * 3rd party development
+    * [Drupal](docs/development/3rd-party/drupal/index.md)
+  * [Frontend](docs/development/frontend/index.md)
+  * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
+  * [Release workflow](docs/development/release-workflow.md)
+  * Templates
+    * [Issue template](docs/templates/issue-template.md)
+    * [Pull request template](docs/templates/pull-request-template.md)
+* Testing
+  * [Types of testing](docs/testing/types-of-testing.md)
+  * [Running tests](docs/testing/runnning-tests.md)
+
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
