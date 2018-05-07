@@ -18,9 +18,7 @@ For more information please check:
 - [How to contribute](docs/how-to-contribute.md)
 - [Coding standards](docs/coding-standards.md)
 - [Release cycle](docs/release-cycle.md)
-- 3rd party open source
-  - Drupal
-    - [Experimental module policies](docs/3rd-party/drupal/experimental-module-policy.md)
+- [Third party open source](docs/third-party-open-source.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
