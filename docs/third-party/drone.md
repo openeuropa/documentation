@@ -1,32 +1,21 @@
-Drone
-=====
+# Drone
 
-OpenEuropa is using [Drone](https://drone.io/) for continuous integration and
-continuous delivery.
+OpenEuropa is using [Drone][1] for continuous integration and continuous delivery.
+For more information about policies regarding the use of the FPFIS Drone service
+please refer to [this issue][4].
 
-Policies regarding the use of the FPFIS Drone service
------------------------------------------------------
+## Enabling Drone for a new repository
 
-Ref. https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-571
-
-
-Enabling Drone for a new repository
------------------------------------
-
-The repository should be enabled in the web interface at [Account >
-Repositories](https://drone.fpfis.eu/account/repos). This action can only be
-taken by the repository maintainer.
+The repository should be enabled in the web interface at [Account > Repositories][2].
+This action can only be taken by the repository maintainer.
 
 In the repository settings for the Drone application on Github the necessary
 actions should then be configured, so that the tests will run on all branches,
 ull requests, tags, etc.
 
+## Testing Drone in a local development environment
 
-Testing Drone in a local development environment
-------------------------------------------------
-
-* Install the Drone CLI tool, ref. [Drone CLI
-  installation](http://docs.drone.io/cli-installation/).
+* Install the Drone CLI tool, ref. [Drone CLI installation][1].
 * In the root folder of the repository (where the `.drone.yml` file is
   located), execute the Drone pipeline with:
 
@@ -37,7 +26,6 @@ Testing Drone in a local development environment
   commits being pushed to the master branch:
 
     $ drone exec --build-event push --commit-branch master
-
 
 ### Tips regarding the use of the Drone CLI tool
 
@@ -63,3 +51,8 @@ Testing Drone in a local development environment
   with the container exiting with exit code 139. To solve this, run the host
   system with the kernel parameter `vsyscall=emulate`. See for example:
   https://bugs.archlinux.org/task/57336
+
+[1]: https://drone.io
+[2]: https://drone.fpfis.eu/account/repos
+[3]: http://docs.drone.io/cli-installation
+[4]: https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-571
