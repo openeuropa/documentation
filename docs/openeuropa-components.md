@@ -115,7 +115,7 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_profile"><b>OpenEuropa Profile</b></a><br/>
-            Multilingual features for the OpenEuropa project.
+            Drupal profile for the OpenEuropa project.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/v/openeuropa/oe_profile.svg?maxAge=3600"/></a>      
