@@ -112,7 +112,20 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_multilingual.svg?maxAge=3600"/></a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_profile"><b>OpenEuropa Profile</b></a><br/>
+            Drupal profile for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/v/openeuropa/oe_profile.svg?maxAge=3600"/></a>      
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_profile"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_profile/status.svg?branch=master"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_profile.svg?maxAge=3600"/></a>
+        </td>
+    </tr>
 </table>
+
+
 
 [1]: http://www.php-fig.org
 [2]: http://www.phptherightway.com
