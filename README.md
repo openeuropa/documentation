@@ -14,7 +14,6 @@ In order to achieve such a goal the OpenEuropa Initiative will focus on the foll
 
 For more information please check:
 
-
 * OpenEuropa initiative
   * [Code of Conduct](docs/initiative/code-of-conduct.md) 
   * [Release cycle](docs/initiative/release-cycle.md)
@@ -25,20 +24,20 @@ For more information please check:
   * [Dependency management](docs/starting/dependency-management-and-patching.md)
   * [Tooling](docs/starting/tooling.md)
 * Architecture
-  * 3rd party
+  * Third party
     * Drupal
-      * [Content architecture](docs/architecture/3rd-party/drupal/content-architecture.md)
-      * [Layout architecture](docs/architecture/3rd-party/drupal/layout-architecture.md)  
-      * [Configuration management](docs/architecture/3rd-party/drupal/configuration-management.md)
-      * [Module selection](docs/architecture/3rd-party/drupal/selecting-contributed-modules.md)
-      * [Experimental modules policy](docs/architecture/3rd-party/drupal/experimental-module-policy.md)
+      * [Content architecture](docs/architecture/third-party/drupal/content-architecture.md)
+      * [Layout architecture](docs/architecture/third-party/drupal/layout-architecture.md)  
+      * [Configuration management](docs/architecture/third-party/drupal/configuration-management.md)
+      * [Module selection](docs/architecture/third-party/drupal/selecting-contributed-modules.md)
+      * [Experimental modules policy](docs/architecture/third-party/drupal/experimental-module-policy.md)
 * Development
   * [Development Workflow](docs/development/development-workflow.md)
   * [Feature development guidelines](docs/development/feature-development.md)
   * [Coding standards](docs/development/coding-standards.md)
   * [Frontend development](docs/development/frontend/index.md)
-  * 3rd party development
-    * [Drupal](docs/development/3rd-party/drupal/index.md)
+  * Third party development
+    * [Drupal](docs/development/third-party/drupal/index.md)
   * [Frontend](docs/development/frontend/index.md)
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
   * [Release workflow](docs/development/release-workflow.md)
@@ -48,7 +47,6 @@ For more information please check:
 * Testing
   * [Types of testing](docs/testing/types-of-testing.md)
   * [Running tests](docs/testing/runnning-tests.md)
-
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
