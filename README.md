@@ -38,7 +38,6 @@ For more information please check:
   * [Frontend development](docs/development/frontend/index.md)
   * Third party development
     * [Drupal](docs/development/third-party/drupal/index.md)
-  * [Frontend](docs/development/frontend/index.md)
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
   * [Release workflow](docs/development/release-workflow.md)
   * Templates
