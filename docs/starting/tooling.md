@@ -80,5 +80,3 @@ All Node.js development dependencies are required in the repository package.json
 ### <a name="drone">Drone</a>
 Drone is the recommended CI/CD solution for OpenEuropa Initiative. More information about drone can be found [here](docs/development/third-party/drone.md)
 
-
-
