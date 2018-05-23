@@ -29,7 +29,7 @@ All dependencies specific for given component are defined in its composer.json f
 
 ### <a name="git">Git</a>
 
-[Git](https://git-scm.com/) is the distributed version control system used as a foundation of the OpenEuropa ecosystem. Components create by OpenEuropa teams are stored in separeted repositoroes hosted on Github.
+[Git](https://git-scm.com/) is the distributed version control system used as a foundation of the OpenEuropa ecosystem. Components created by OpenEuropa teams are stored in separated repositories hosted on Github.
 
 ### <a name="drush">Drush</a>
 
@@ -41,7 +41,7 @@ All dependencies specific for given component are defined in its composer.json f
 
 ### <a name="dockercompose">Docker Compose</a>
 
-[Docker compose](https://docs.docker.com/compose) facilitate the use of Docker solutions in order to set up quickly a development environment for the different components ensuring that all technical requirements are met and dependencies are present.
+[Docker compose](https://docs.docker.com/compose) facilitates the use of Docker solutions in order to set up quickly a development environment for the different components ensuring that all technical requirements are met and dependencies are present.
 
 ### <a name="npm">Node.js</a>
 
@@ -58,7 +58,7 @@ All required development dependencies are defined in the package.json file.
 
 ### <a name="behat">Behat</a>
 
-[Behat](http://behat.org/) A php framework for autotesting business expectations. It shall be used to develop automated tests using Gherkin scenarios in order to cover business functionalities.
+[Behat](http://behat.org/) is a php framework for autotesting business expectations. It shall be used to develop automated tests using Gherkin scenarios in order to cover business functionalities.
 
 ### <a name="PHPUnit">PHPUnit</a>
 
