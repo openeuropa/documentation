@@ -29,6 +29,7 @@ For more information please check:
       * [Content architecture](docs/architecture/third-party/drupal/content-architecture.md)
       * [Layout architecture](docs/architecture/third-party/drupal/layout-architecture.md)  
       * [Configuration management](docs/architecture/third-party/drupal/configuration-management.md)
+      * [Writing tests](docs/architecture/third-party/drupal/testing.md)
       * [Module selection](docs/architecture/third-party/drupal/selecting-contributed-modules.md)
       * [Experimental modules policy](docs/architecture/third-party/drupal/experimental-module-policy.md)
 * Development
