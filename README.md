@@ -44,9 +44,7 @@ For more information please check:
   * Templates
     * [Issue template](docs/templates/issue-template.md)
     * [Pull request template](docs/templates/pull-request-template.md)
-* Testing
-  * [Types of testing](docs/testing/types-of-testing.md)
-  * [Running tests](docs/testing/runnning-tests.md)
+* [Automated testing](docs/automated-testing.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org

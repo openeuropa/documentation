@@ -1,14 +1,8 @@
 # Testing Drupal components
 
-OpenEuropa requires automated tests to be written for every new feature or
-bugfix to ensure that the functionality will keep working as expected in the
-future.
-
-* Pull requests without sufficient test coverage will not be accepted.
-* For a pull request to be accepted, both the previously existing and the newly
-  added tests should be passing.
-* Existing test code should not be modified unless this is covered by a change
-  request originating from project stakeholders.
+This document contains information specific to testing Drupal based components.
+More general information about our testing policy can be found in the
+[Automated testing](docs/automated-testing.md) section.
 
 ## Choosing the right test framework
 
@@ -83,5 +77,15 @@ Guidelines for writing unit tests:
 * When writing a test for a bug fix it is highly recommended to write and
   commit the test first, so it can be demonstrated that the test correctly fails
   when the bug is present, and passes when the bug is fixed.
+
+## Running tests
+
+* Every Drupal component should have a section in the README explaining how to
+  run the tests on a local development environment.
+* Provide the necessary configuration files (like `phpunit.xml.dist` and
+  `behat.yml.dist`) in the root of the project to make execution of tests as
+  trivial as possible.
+* Ensure that the tests can run on our Continuous Integration environments by
+  supplying a `.drone.yml` file.
 
 [1]: https://www.drupal.org/docs/8/testing/types-of-tests-in-drupal-8 
