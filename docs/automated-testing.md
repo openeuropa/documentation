@@ -9,8 +9,8 @@ future.
 * Pull requests without sufficient test coverage will not be accepted.
 * As a general rule any non-trivial code should be covered with tests. Trivial
   code that does not contain any business logic (such as getters and setters,
-  object constructors, factory methods, ...) do not require tests. However, any
-  code that is non-trivial (e.g. containing switches, loops, arithmetic
+  object constructors, factory methods, ...) does not require tests. However,
+  any code that is non-trivial (e.g. containing switches, loops, arithmetic
   operations or any other business logic) should be fully covered by tests.
 * Whether or not a piece of code is missing necessary coverage is at the
   discretion of the QA engineers. Any request for additional test coverage
