@@ -21,6 +21,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/composer-artifacts"><b>Composer artifacts</b></a><br/>
+            Composer plugin that allows to download a specified artifact instead of the project source.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/composer-artifacts"><img src="https://img.shields.io/packagist/v/openeuropa/composer-artifacts.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/composer-artifacts"><img src="https://drone.fpfis.eu/api/badges/openeuropa/composer-artifacts/status.svg?branch=master"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/composer-artifacts"><img src="https://img.shields.io/packagist/dt/openeuropa/composer-artifacts.svg?maxAge=3600"/></a>
+        </td>
+    </tr>    
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/task-runner"><b>Task Runner</b></a><br/>
             PHP task runner based on Robo, focused on extensibility.
         </td>
@@ -86,7 +97,7 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
         </td>
         <td>
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg?maxAge=3600"/></a>
-            <a title="Build" href="https://travis-ci.org/openeuropa/oe_theme"><img src="https://img.shields.io/travis/openeuropa/oe_theme/master.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_theme"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_theme/status.svg?branch=master"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg?maxAge=3600"/></a>
         </td>
     </tr>
