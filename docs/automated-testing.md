@@ -71,7 +71,7 @@ automated testing we require the following:
 * Every project and component in the OpenEuropa space should use a Continuous
   Integration service to automatically test every PR before they get accepted.
   The OpenEuropa team provides this service. For more information see [CI
-  Deployment Workflow](docs/development/ci-deployment-workflow.md).
+  Deployment Workflow](../docs/development/ci-deployment-workflow.md).
 * Every component is required to add a section to the main README file that
   explains how to run the test suite on a local development environment. This
   will ensure that any contributor will have this important information readily
