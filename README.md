@@ -29,6 +29,7 @@ For more information please check:
       * [Content architecture](docs/architecture/third-party/drupal/content-architecture.md)
       * [Layout architecture](docs/architecture/third-party/drupal/layout-architecture.md)  
       * [Configuration management](docs/architecture/third-party/drupal/configuration-management.md)
+      * [Writing tests](docs/architecture/third-party/drupal/testing.md)
       * [Module selection](docs/architecture/third-party/drupal/selecting-contributed-modules.md)
       * [Experimental modules policy](docs/architecture/third-party/drupal/experimental-module-policy.md)
 * Development
@@ -43,9 +44,7 @@ For more information please check:
   * Templates
     * [Issue template](docs/templates/issue-template.md)
     * [Pull request template](docs/templates/pull-request-template.md)
-* Testing
-  * [Types of testing](docs/testing/types-of-testing.md)
-  * [Running tests](docs/testing/runnning-tests.md)
+* [Automated testing](docs/automated-testing.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org

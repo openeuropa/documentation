@@ -103,7 +103,7 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_theme"><b>OpenEuropa Paragraphs</b></a><br/>
+            <a title="Repository" href="https://github.com/openeuropa/oe_paragraphs"><b>OpenEuropa Paragraphs</b></a><br/>
             This module integrates the ECL, the component library of the European Commission, with the Paragraphs module.
         </td>
         <td width="250">
