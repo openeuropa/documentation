@@ -23,7 +23,10 @@ Please refer to the Code Review [documentation][5] for more information on usage
 ## Coding Standards on Drupal Components
 
 All Drupal based components MUST follow the already defined [Drupal Coding Standards][6].
-This applies to all files available in both modules and themes.
+
+## Coding Standards on Drupal Themes
+
+Drupal themes are based on the Europa Component Library and should follow the [ECL Coding Standards][7].
 
 ## Coding Standards on PHP based components
 
@@ -37,3 +40,4 @@ This applies to any library or component that is mainly developed on PHP
 [4]: https://github.com/openeuropa/code-review
 [5]: https://github.com/openeuropa/code-review/blob/master/README.md
 [6]: https://www.drupal.org/docs/develop/standards
+[7]: https://github.com/ec-europa/europa-component-library/tree/next/docs/conventions
