@@ -103,6 +103,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 <table>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_authentication"><b>OpenEuropa Auth</b></a><br/>                
+            This module allows to authenticate users against the European Commission login service.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/v/openeuropa/oe_authentication.svg?maxAge=3600"/></a>      
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_authentication"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_authentication/status.svg?branch=master"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_authentication.svg?maxAge=3600"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_theme"><b>OpenEuropa Theme</b></a><br/>
             Drupal 8 theme based on the Europa Component Library.
         </td>
