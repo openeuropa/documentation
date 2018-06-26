@@ -85,6 +85,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg?maxAge=3600"/></a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/pcas"><b>pCAS - PHP Cas library</b></a><br/>
+            Authentification library for authenticating users on a CAS server.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/v/openeuropa/pcas.svg?maxAge=3600"/></a>
+            <a title="Build" href="https://travis-ci.org/openeuropa/pcas"><img src="https://img.shields.io/travis/openeuropa/pcas/master.svg?maxAge=3600"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/dt/openeuropa/pcas.svg?maxAge=3600"/></a>
+        </td>
+    </tr>
 </table>
 
 ### Drupal projects
