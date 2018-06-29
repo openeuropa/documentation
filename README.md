@@ -1,3 +1,6 @@
+---
+title: OpenEuropa
+---
 <p align="center"><img src="./assets/logo.png"/></p>
 <h1 align="center">The OpenEuropa Initiative</h1>
 
