@@ -20,11 +20,12 @@ The routing system is responsible for matching paths to controllers, and you def
 
 ## Structure of routes and parameters
 
+TODO
 
 ## Adding new routes (static & dynamic) and altering existing ones
 
 
-### Adding a new route
+### Adding a new static route
 
 1. In your example.routing.yml (let's use **example** module name as in drupal.org)
     
@@ -47,7 +48,7 @@ example.content:
 ```
     
 
-1. In your src/Controller add your page controller class and your methods
+2. In your src/Controller add your page controller class and your methods
 
 ```namespace Drupal\example\Controller;
 
@@ -70,19 +71,36 @@ class ExampleController extends ControllerBase {
 }
 ```
 
+### Adding a new dynamic route
 
+You can use the alterRoutes() method to add dynamic routes as well. 
+A real example can be found in the [configuration translation RouteSubscriber][9].
+
+See [drupal.org][7]
 
 ### Altering existing routes
 
-Routes are stored in a YAML file in the root of the module and use the following naming convention:
+Altering existing routes is done by modifying a **RouteCollection** and using  an **EventSubscriber** triggered by the **RoutingEvents:ALTER** event.
 
+The example use a src/Routing/RouteSubscriber.php file in your module.
+Therefore, the class must be registered as an event subscriber service.
+Use a example.services.yml file in your module (if the module is named example).
 ```
-modulename.routing.yml
+services:
+  example.route_subscriber:
+    class: Drupal\example\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
 ```
-
+[See drupal.org][6]
 
 ## Route related objects
 
+Route, CurrentRouteMatch, RouteMatch, Url are objects used for routing in Drupal 8.
+-RouteMatch: \Drupal\Core\Routing\RouteMatchInterface
+-CurrentRouteMatch: \Drupal\Core\Routing\CurrentRouteMatch
+
+see in [drupal.org][8]
 
 ## Useful links
 
@@ -99,12 +117,18 @@ modulename.routing.yml
 The Examples project contains many sub-modules that demonstrate various Drupal sub-systems through well-documented code. 
 To learn more about how routing and controllers work, take a look at the page_example module here.
 
+- Other ressources:
+
+    https://www.previousnext.com.au/blog/using-drupal-8s-new-route-controllers
+    https://befused.com/drupal/routes-controllers
+
 
 [1]: https://symfony.com/doc/current/controller.html
 [2]: https://www.drupal.org/docs/8/api/routing-system/routing-system-overview
 [3]: http://symfony.com/doc/current/routing.html
 [4]: https://www.drupal.org/docs/8/api/routing-system/structure-of-routes
 [5]: https://www.drupal.org/docs/8/api/routing-system/routing-system-overview
-
-https://www.previousnext.com.au/blog/using-drupal-8s-new-route-controllers
-https://befused.com/drupal/routes-controllers
+[6]: https://www.drupal.org/docs/8/api/routing-system/altering-existing-routes-and-adding-new-routes-based-on-dynamic-ones
+[7]: https://www.drupal.org/node/2122201
+[8]: https://www.drupal.org/docs/8/api/routing-system/routing-related-objects-route-currentroutematch-routematch-url
+[9]: https://api.drupal.org/api/drupal/core%21modules%21config_translation%21src%21Routing%21RouteSubscriber.php/class/RouteSubscriber/8
