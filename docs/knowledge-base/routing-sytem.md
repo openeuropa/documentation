@@ -20,7 +20,7 @@ The routing system is responsible for matching paths to controllers, and you def
 
 ## Structure of routes and parameters
 
-TODO
+The route structure inside the *module.routing.yml* file is described in [drupal.org][3]
 
 ## Adding new routes (static & dynamic) and altering existing ones
 
@@ -49,6 +49,9 @@ example.content:
     
 
 2. In your src/Controller add your page controller class and your methods
+
+
+As basic route controller you can use Drupal\Core\Controller\ControllerBase.
 
 ```namespace Drupal\example\Controller;
 
@@ -102,6 +105,13 @@ Route, CurrentRouteMatch, RouteMatch, Url are objects used for routing in Drupal
 
 see in [drupal.org][8]
 
+You can also  create your route into your module creation through [drupal console][10]:
+
+```
+drupal generate:module
+drupal generate:controller
+```
+
 ## Useful links
 
 - Routing system overview in [drupal.org][2]
@@ -117,7 +127,8 @@ see in [drupal.org][8]
 The Examples project contains many sub-modules that demonstrate various Drupal sub-systems through well-documented code. 
 To learn more about how routing and controllers work, take a look at the page_example module here.
 
-- Other ressources:
+
+### Other ressources:
 
     https://www.previousnext.com.au/blog/using-drupal-8s-new-route-controllers
     https://befused.com/drupal/routes-controllers
@@ -132,3 +143,4 @@ To learn more about how routing and controllers work, take a look at the page_ex
 [7]: https://www.drupal.org/node/2122201
 [8]: https://www.drupal.org/docs/8/api/routing-system/routing-related-objects-route-currentroutematch-routematch-url
 [9]: https://api.drupal.org/api/drupal/core%21modules%21config_translation%21src%21Routing%21RouteSubscriber.php/class/RouteSubscriber/8
+[10]: https://drupalconsole.com/
