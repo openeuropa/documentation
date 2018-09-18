@@ -1,9 +1,15 @@
-# Services and Dependency Injection
+# What is dependency injection and how it works in the wild
+# What is a service and why use services (and why not statically load them via \Drupal::service())
+# How to define a service
+## Tagged services and service collectors
+# How to inject services in Drupal 8
+## In other services
+## In controllers (and forms)
+## In plugins
+## Where can we not inject services?
+# Where can we quickly find existing core services?
+# Altering services
 
-Symfony uses a service container that can be used to efficiently manage services in the application. This concept is also known as *Dependency Injection*.
-This Service Container* is a global object that is created and contained by the Kernel before a request is handled. It can be used later in code to fetch services, lazy-loaded on the fly.
-Services are global objects that can be used to fulfil specific tasks, such as a Mailer service, or a database connector. A service corresponds to exactly one class.
-The service container is very important as it contains the available services, knows about their relations and configurations, and even constructs them!
 
 
 # Core services
@@ -29,13 +35,19 @@ Plugins are reusable objects discoverable by *annotations*. Though they are simi
 If you want to expose an interface which can exhibit different behaviour, go for a plugin.
 
 
+# Services and Dependency Injection
+
+Symfony uses a service container that can be used to efficiently manage services in the application. This concept is also known as *Dependency Injection*.
+This Service Container* is a global object that is created and contained by the Kernel before a request is handled. It can be used later in code to fetch services, lazy-loaded on the fly.
+Services are global objects that can be used to fulfil specific tasks, such as a Mailer service, or a database connector. A service corresponds to exactly one class.
+The service container is very important as it contains the available services, knows about their relations and configurations, and even constructs them!
+
+
 ## Why dependency
 
 A service may depend on other services. The Symfony documentation uses the example of a NewsletterManager service that needs a Mailer service to actually send the emails.
 These dependencies are also managed in the Service Container. When creating a service, his dependencies are supplied via arguments in the class constructor.
 Interfaces are used to define which methods the dependent services should provide, so that the service implementation can be swapped with another one when necessary.
-
-...
 
 
 ## The injection
@@ -44,8 +56,6 @@ Dependency injection is the preferred method for accessing and using services in
 
 Passing in the services an object depends on explicitly is called dependency injection. In several cases, dependencies are passed explicitly in class constructors of the controller.
 By the routing process, the controller will use services to display content (responses)
-
-...
 
 
 ## Defining your own services
@@ -59,11 +69,11 @@ module_name.service_name:
 class: Drupal\module_name\ClassOfTheService
 ```
 
-You can use drupal console command to  generate a blueprint in your module and then add things for your specific usecase.
+You can use drupal console command to generate a blueprint in your module and then add things for your specific usecase.
 ```
 drupal generate:service
 ```
-and answer questions accordingly
+or create file by yourself.
 
 Then inside your service class you add all the method needeed to accomplish the responsability of this service.
 
@@ -89,8 +99,3 @@ $book_list = \Drupal::service('mymodule.listbooks')->getBooks();
 [1]:https://www.drupal.org/docs/8/api/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8
 [2]:https://symfony.com/doc/current/service_container.html
 [3]:https://symfony.com/doc/current/components/dependency_injection.html
-
-
-### Other sources:
-
-https://cipix.nl/understanding-drupal-8-part-2-service-container
