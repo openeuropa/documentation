@@ -9,18 +9,52 @@ Drupal matches the incoming request's path to a controller by looking through th
 In prior versions of Drupal, there was only hook_menu. Hook menu actually managed a few different features.
 In addition to handling incoming requests, it provided menu links, access control, action links, and a number of other features that are all very tightly coupled together.
 By using the Symfony2 Routing component, we are able to split out the route handling aspect, and get a much improved and feature-rich solution.
-Such as being able to create routes on more than just the path, for example make a request for JSON, XML or HTML while still using the same path. 
+Such as being able to create routes on more than just the path.
+For example, it allows to create routes with different response formats (JSON, XML or HTML) for same path.
 
 
 ## How the routing system works
 
 Drupal's routing system works with the Symfony HTTP Kernel. 
-The routing system is responsible for matching paths to controllers, and you define those relations in routes. You can pass on additional information to your controllers in the route. Access checking is integrated as well.
-[See drupal.org][5]
+The routing system is responsible for matching paths to controllers, and you define those relations in routes.
+You can pass on additional information to your controllers in the route. Access checking is integrated as well.
+[See drupal.org: routing-system-overview][5]
 
 ## Structure of routes and parameters
 
-The route structure inside the *module.routing.yml* file is described in [drupal.org][3]
+The route structure inside the **module.routing.yml** file is described in drupal.org documentation.
+
+REQUIRED
+
+* **path** : The URL to the route, with a leading forward slash (e.g., path: '/book'). You can use dynamic properties by including them in curly braces. (e.g., path: '/node/{node}/outline'). These will be passed along as arguments via parameter converters to the controller/form (see below).
+* **defaults** : Defines the default properties of a route. Provide one of the following to specify how the output is generated:
+
+    **_controller**: A Callable. This will map to a callable function.
+
+    **_form:** A class name implementing Drupal\Core\Form\FormInterface.
+    **_entity_view**: The value is entity_type.view_mode. It will find an entity in the path and render it in the given view mode.
+
+    **_entity_list**: The value is entity_type. It provides a list of entities using the EntityListController of the respective entity.
+    **_entity_form**: It is similar to _form, but it will provide an edit form for an entity.
+
+    All title related parameters are OPTIONAL:
+
+    * _title: The page title for the route.
+    * _title_arguments: Additional arguments for the title text passed along to t().
+    * _title_context: Additional context information for the title text passed along to t().
+    * _title_callback: A PHP callable returning the page title for the route.
+
+* **requirements**: Determines what conditions must be met in order to grant access to the route. Is an array of one or more of the following:
+
+    * _permission: A permission string
+    * _role: A specific Drupal role, eg. 'administrator'.
+    * _access: Set this to 'TRUE'.
+    * _entity_access: In the case where an entity is part of a route, can check a certain access level before granting access
+    * _custom_access
+    * _format: Use this to check the type of the request.
+    * _content_type_format: Use this to check the content type of the request.
+    * _module_dependencies: Optionally use this key to specify one or more modules that are required to serve this path.
+    * _csrf_token: should be used and set to 'TRUE' for any URLs that perform actions or operations that do not use a form callback.
 
 ## Adding new routes (static & dynamic) and altering existing ones
 
@@ -28,14 +62,8 @@ The route structure inside the *module.routing.yml* file is described in [drupal
 ### Adding a new static route
 
 1. In your example.routing.yml (let's use **example** module name as in drupal.org)
-    
-    Add your path, ( /something )
-        and in *defaults:* 
-            add the controller class and the method who will do something.
-            set a title
-        as *requirements:*
-            add permission   
-        
+We can set the title and the path of the route, the used controller class and its method and also to define the permissions.
+The resulting JSON will be like this:
 
 ```
 example.content:
@@ -79,7 +107,7 @@ class ExampleController extends ControllerBase {
 You can use the alterRoutes() method to add dynamic routes as well. 
 A real example can be found in the [configuration translation RouteSubscriber][9].
 
-See [drupal.org][7]
+See [drupal.org Providing dynamic routes][7]
 
 ### Altering existing routes
 
@@ -95,52 +123,42 @@ services:
     tags:
       - { name: event_subscriber }
 ```
-[See drupal.org][6]
+[See drupal.org altering-existing-routes-and-adding-new-routes-based-on-dynamic-ones][6]
 
 ## Route related objects
 
-Route, CurrentRouteMatch, RouteMatch, Url are objects used for routing in Drupal 8.
--RouteMatch: \Drupal\Core\Routing\RouteMatchInterface
--CurrentRouteMatch: \Drupal\Core\Routing\CurrentRouteMatch
+These objects are used for routing in Drupal 8:
 
-see in [drupal.org][8]
+* The __Route__ object is simply the routing YML in PHP form with getters.
+* The __RouteMatch_ (\Drupal\Core\Routing\RouteMatchInterface) object contains more relevant information like the name of the route, the route object, the parameters and the raw parameters as relevant for the match but still doesn't have any useful methods either besides getters.
+* The __CurrentRouteMatch__ (\Drupal\Core\Routing\CurrentRouteMatch) object is also a RouteMatch but specifically contains the current route object. Again, you can only run getters on this.
+* The __Url__ object currently contains the route name, parameters and options for generating the URL. This one has useful methods like getting the system path or a render array.
 
-You can also  create your route into your module creation through [drupal console][10]:
+see in [drupal.org routing-related-objects-route-currentroutematch-routematch-url][8]
 
-```
-drupal generate:module
-drupal generate:controller
-```
 
 ## Useful links
 
-- Routing system overview in [drupal.org][2]
-
+- Routing system overview in [drupal.org: routing-system-overview][2]
     This is the main entry point for Drupal's official documentation about the routing system.
-- Symfony's routing component in [symfony.com][3]
-
+- Symfony's routing component in [symfony.com: The Routing component ][3]
     The official documentation for the Symfony routing component that Drupal's routing system is based on.
-- Structure of routes in [drupal.org][4]
-
+- Structure of routes in [drupal.org: structure-of-routes][4]
     This page covers the variety of configuration options that make up routing configuration files.
-- Examples project's page_example module [(cgit.drupalcode.org)][5]
-The Examples project contains many sub-modules that demonstrate various Drupal sub-systems through well-documented code. 
-To learn more about how routing and controllers work, take a look at the page_example module here.
-
-
-### Other ressources:
-
-    https://www.previousnext.com.au/blog/using-drupal-8s-new-route-controllers
-    https://befused.com/drupal/routes-controllers
+- Examples project's page_example module in [cgit.drupalcode.org/examples/tree][10]
+    The Examples project contains many sub-modules that demonstrate various Drupal sub-systems through well-documented code.
+    To learn more about how routing and controllers work, take a look at the page_example module here.
 
 
 [1]: https://symfony.com/doc/current/controller.html
 [2]: https://www.drupal.org/docs/8/api/routing-system/routing-system-overview
-[3]: http://symfony.com/doc/current/routing.html
+[3]: hhttps://symfony.com/doc/current/components/routing.html
 [4]: https://www.drupal.org/docs/8/api/routing-system/structure-of-routes
 [5]: https://www.drupal.org/docs/8/api/routing-system/routing-system-overview
 [6]: https://www.drupal.org/docs/8/api/routing-system/altering-existing-routes-and-adding-new-routes-based-on-dynamic-ones
 [7]: https://www.drupal.org/node/2122201
 [8]: https://www.drupal.org/docs/8/api/routing-system/routing-related-objects-route-currentroutematch-routematch-url
 [9]: https://api.drupal.org/api/drupal/core%21modules%21config_translation%21src%21Routing%21RouteSubscriber.php/class/RouteSubscriber/8
-[10]: https://drupalconsole.com/
+[10]: http://cgit.drupalcode.org/examples/tree/
+[11]: https://www.previousnext.com.au/blog/using-drupal-8s-new-route-controllers
+[12]: https://befused.com/drupal/routes-controllers
