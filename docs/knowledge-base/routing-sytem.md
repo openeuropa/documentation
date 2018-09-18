@@ -24,7 +24,7 @@ You can pass on additional information to your controllers in the route. Access 
 
 The route structure inside the **module.routing.yml** file is described in drupal.org documentation.
 
-REQUIRED
+REQUIRED PARAMETERS ARE:
 
 * **path** : The URL to the route, with a leading forward slash (e.g., path: '/book'). You can use dynamic properties by including them in curly braces. (e.g., path: '/node/{node}/outline'). These will be passed along as arguments via parameter converters to the controller/form (see below).
 * **defaults** : Defines the default properties of a route. Provide one of the following to specify how the output is generated:
@@ -32,9 +32,11 @@ REQUIRED
     **_controller**: A Callable. This will map to a callable function.
 
     **_form:** A class name implementing Drupal\Core\Form\FormInterface.
+
     **_entity_view**: The value is entity_type.view_mode. It will find an entity in the path and render it in the given view mode.
 
     **_entity_list**: The value is entity_type. It provides a list of entities using the EntityListController of the respective entity.
+
     **_entity_form**: It is similar to _form, but it will provide an edit form for an entity.
 
     All title related parameters are OPTIONAL:
