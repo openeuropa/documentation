@@ -78,10 +78,8 @@ example.content:
 ```
     
 
-2. In your src/Controller add your page controller class and your methods
-
-
-As basic route controller you can use Drupal\Core\Controller\ControllerBase.
+2. In your src/Controller add your page controller class and your methods.
+As basic route controller you can extends Drupal\Core\Controller\ControllerBase.
 
 ```namespace Drupal\example\Controller;
 
