@@ -186,7 +186,18 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_webtools"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_profile.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_webtools.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_webtools_location"><b>OpenEuropa Webtools Location Services</b></a><br/>
+            Drupal module that provides integration with Webtools location services, such as geocoding and maps.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools_location"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools_location.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_webtools_location"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools_location/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools_location"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_webtools_location.svg"/></a>
         </td>
     </tr>
 </table>
