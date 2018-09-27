@@ -98,6 +98,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/syncope-php-client"><b>Syncope PHP Client</b></a><br/>
+            This package profiles a client for Syncope.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/syncope-php-client"><img src="https://img.shields.io/packagist/v/openeuropa/syncope-php-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/syncope-php-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/syncope-php-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/syncope-php-client"><img src="https://img.shields.io/packagist/dt/openeuropa/syncope-php-client.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/task-runner"><b>Task Runner</b></a><br/>
             PHP task runner based on Robo, focused on extensibility.
         </td>
