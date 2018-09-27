@@ -32,6 +32,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/drupal-core-require-dev"><b>Drupal Core require dev</b></a><br/>
+            This package provides the require dependencies of drupal/core as a standalone package.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/drupal-core-require-dev"><img src="https://img.shields.io/packagist/v/openeuropa/drupal-core-require-dev.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/drupal-core-require-dev"><img src="https://drone.fpfis.eu/api/badges/openeuropa/drupal-core-require-dev/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-core-require-dev"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-core-require-dev.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/ecl-twig-loader"><b>ECL Twig loader</b></a><br/>
             Twig loader for Europa Component Library, it allows to load components by accessing them via a configurable ecl-twig-loaderspace.
         </td>
