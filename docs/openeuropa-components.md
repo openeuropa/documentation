@@ -140,6 +140,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner.svg"/></a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/webtools-geocoding-provider"><b>Webtools Geolocation provider</b></a><br/>
+            This is a provider for the Geocoder PHP library that integrates the Webtools Geolocation service from the European Commission.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/webtools-geocoding-provider"><img src="https://img.shields.io/packagist/v/openeuropa/webtools-geocoding-provider.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/webtools-geocoding-provider"><img src="https://drone.fpfis.eu/api/badges/openeuropa/webtools-geocoding-provider/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/webtools-geocoding-provider"><img src="https://img.shields.io/packagist/dt/openeuropa/webtools-geocoding-provider.svg"/></a>
+        </td>
+    </tr>
 </table>
 
 ### Drupal projects
