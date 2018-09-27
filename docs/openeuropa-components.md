@@ -103,13 +103,24 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 <table>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_authentication"><b>OpenEuropa Auth</b></a><br/>
+            <a title="Repository" href="https://github.com/openeuropa/oe_authentication"><b>OpenEuropa Authentication</b></a><br/>
             This module allows to authenticate users against the European Commission login service.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/v/openeuropa/oe_authentication.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_authentication"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_authentication/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_authentication.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_authorisation"><b>OpenEuropa Authorisation</b></a><br/>
+            This module offers default features related to user authorisation for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_authorisation"><img src="https://img.shields.io/packagist/v/openeuropa/oe_authorisation.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_authorisation"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_authorisation/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_authorisation"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_authorisation.svg"/></a>
         </td>
     </tr>
     <tr>
