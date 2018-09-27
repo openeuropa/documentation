@@ -109,6 +109,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/pcas-demo"><b>Demo pCAS library</b></a><br/>
+            The package contains two independent Symfony applications "demo-client" and "demo-server".
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/pcas-demo"><img src="https://img.shields.io/packagist/v/openeuropa/pcas-demo.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/pcas-demo"><img src="https://drone.fpfis.eu/api/badges/openeuropa/pcas-demo/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/pcas-demo"><img src="https://img.shields.io/packagist/dt/openeuropa/pcas-demo.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/syncope-php-client"><b>Syncope PHP Client</b></a><br/>
             This package profiles a client for Syncope.
         </td>
