@@ -10,6 +10,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 <table>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/behat-transformation-context"><b>Behat Transformation Context</b></a><br/>
+            This package provides a Behat context allowing to transform human readable labels to selectors or page paths.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/behat-transformation-context"><img src="https://img.shields.io/packagist/v/openeuropa/behat-transformation-context.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/behat-transformation-context"><img src="https://drone.fpfis.eu/api/badges/openeuropa/behat-transformation-context/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/behat-transformation-context"><img src="https://img.shields.io/packagist/dt/openeuropa/behat-transformation-context.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/code-review"><b>Code Review</b></a><br/>
             Automated quality assurance checks based on GrumPHP.
         </td>
