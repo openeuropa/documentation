@@ -125,6 +125,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_content"><b>OpenEuropa Content</b></a><br/>
+            This is a Drupal module that contains the EC corporate entity types.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/v/openeuropa/oe_content.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_content"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_content/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_content.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_multilingual"><b>OpenEuropa Multilingual</b></a><br/>
             Multilingual features for the OpenEuropa project.
         </td>
