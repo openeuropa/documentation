@@ -29,17 +29,6 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/composer-artifacts"><img src="https://drone.fpfis.eu/api/badges/openeuropa/composer-artifacts/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/composer-artifacts"><img src="https://img.shields.io/packagist/dt/openeuropa/composer-artifacts.svg"/></a>
         </td>
-    </tr>    
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/openeuropa/task-runner"><b>Task Runner</b></a><br/>
-            PHP task runner based on Robo, focused on extensibility.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/v/openeuropa/task-runner.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/task-runner"><img src="https://drone.fpfis.eu/api/badges/openeuropa/task-runner/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner.svg"/></a>
-        </td>
     </tr>
     <tr>
         <td>
@@ -50,6 +39,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Version" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/v/openeuropa/ecl-twig-loader.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/ecl-twig-loader"><img src="https://drone.fpfis.eu/api/badges/openeuropa/ecl-twig-loader/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/ecl-twig-loader"><img src="https://img.shields.io/packagist/dt/openeuropa/ecl-twig-loader.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/europa-search-client"><b>Europa Search Client</b></a><br/>
+            PHP client for the Europa Search service.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/europa-search-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/europa-search-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg"/></a>
         </td>
     </tr>
     <tr>
@@ -76,17 +76,6 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/europa-search-client"><b>Europa Search Client</b></a><br/>
-            PHP client for the Europa Search service.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/europa-search-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/europa-search-client/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a title="Repository" href="https://github.com/openeuropa/pcas"><b>pCAS - PHP Cas library</b></a><br/>
             Authentification library for authenticating users on a CAS server.
         </td>
@@ -94,6 +83,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Version" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/v/openeuropa/pcas.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/pcas"><img src="https://drone.fpfis.eu/api/badges/openeuropa/pcas/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/dt/openeuropa/pcas.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/task-runner"><b>Task Runner</b></a><br/>
+            PHP task runner based on Robo, focused on extensibility.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/v/openeuropa/task-runner.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/task-runner"><img src="https://drone.fpfis.eu/api/badges/openeuropa/task-runner/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner.svg"/></a>
         </td>
     </tr>
 </table>
@@ -114,13 +114,13 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_theme"><b>OpenEuropa Theme</b></a><br/>
-            Drupal 8 theme based on the Europa Component Library.
+            <a title="Repository" href="https://github.com/openeuropa/oe_multilingual"><b>OpenEuropa Multilingual</b></a><br/>
+            Multilingual features for the OpenEuropa project.
         </td>
-        <td>
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_theme"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_theme/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg"/></a>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/v/openeuropa/oe_multilingual.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_multilingual"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_multilingual/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_multilingual.svg"/></a>
         </td>
     </tr>
     <tr>
@@ -136,17 +136,6 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_multilingual"><b>OpenEuropa Multilingual</b></a><br/>
-            Multilingual features for the OpenEuropa project.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/v/openeuropa/oe_multilingual.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_multilingual"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_multilingual/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_multilingual.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_profile"><b>OpenEuropa Profile</b></a><br/>
             Drupal profile for the OpenEuropa project.
         </td>
@@ -154,6 +143,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/v/openeuropa/oe_profile.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_profile"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_profile/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_profile.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_theme"><b>OpenEuropa Theme</b></a><br/>
+            Drupal 8 theme based on the Europa Component Library.
+        </td>
+        <td>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_theme"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_theme/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg"/></a>
         </td>
     </tr>
     <tr>
