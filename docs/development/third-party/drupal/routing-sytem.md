@@ -1,4 +1,4 @@
-# Routing system in Drupal 8
+# Routing system
 
 The routing system in Drupal 8 is based on the [Symfony Routing component](https://symfony.com/doc/current/routing.html). It is essentially responsible for mapping user requests to business logic in the site, typically via Controllers.
 
