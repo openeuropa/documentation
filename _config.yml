@@ -1,2 +1,4 @@
-theme: jekyll-theme-slate
 title: OpenEuropa
+author: European Commission DG DIGIT
+author_url: https://ec.europa.eu/info/departments/informatics
+theme: jekyll-theme-slate
