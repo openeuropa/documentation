@@ -13,7 +13,7 @@ who decides on the priorities, depending on European Commission needs.
 
 While the OpenEuropa team strongly welcomes and encourages contributions, European Commission projects have the priority over external entities needs,
 which means an external contribution or support request might be handled after a certain period of time, depending on available resources,
-or might be rejected at the sole discretion of the OpenEuropa team representatives.
+or might be rejected at the sole discretion of the OpenEuropa team representatives (hereinafter referred to as "maintainers").
 
 ## OpenEuropa contribution rules
 
