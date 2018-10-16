@@ -85,7 +85,7 @@ improvements to existing functionality.
 
 Before creating a feature request, please check [this checklist](#before-submitting-a-feature-request) as you might find
 out that you don't need to create one. When you are creating a feature request, please
-[include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion).
+[include as many details as possible](#how-do-i-submit-a-good-feature-request).
 
 Fill in [the issue template](../templates/issue-template.md), including the steps that you imagine you would take if the feature
 you're requesting existed.
