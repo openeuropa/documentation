@@ -1,7 +1,7 @@
 # Contributing to OpenEuropa
 
 The following is a set of guidelines for contributing to OpenEuropa and its components, which are hosted in the
-[OpenEuropa project](https://github.com/openeuropa) GitHub. These are mostly guidelines, not rules.
+[OpenEuropa project](https://github.com/openeuropa) on GitHub. These are mostly guidelines, not rules.
 Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 **Table of contents**
@@ -26,7 +26,7 @@ By participating, you are expected to uphold this code.  Please report unaccepta
 OpenEuropa is an open source project made up of several different components. Before you report anything please make
 sure you are using the correct repository for the component you are referring to.
 
-A comprehensive list of components built and maintained by the OpenEuropa team is available [here](openeuropa-components.md)
+A comprehensive list of components built and maintained by the OpenEuropa team is available [here](../openeuropa-components.md).
 
 ## How can I contribute?
 
@@ -37,7 +37,7 @@ everyone involved to understand your report and react efficiently.
 
 Before creating bug reports, please check [this checklist](#before-submitting-a-bug-report) as you might find out that
 you don't actually need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report)
-and use [the required template](ISSUE_TEMPLATE.md), this will allows us to resolve issues faster.
+and use [the required template](../templates/issue-template.md), this will allows us to resolve issues faster.
 
 #### Before submitting a bug report
 
@@ -52,12 +52,12 @@ and use [the required template](ISSUE_TEMPLATE.md), this will allows us to resol
 
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues). After you've determined [which repository](#before-getting-started)
 your bug is related to, create an issue on that repository and provide the following information by filling in
-[the issue template](issue-template.md).
+[the issue template](../templates/issue-template.md).
 
 Explain the problem and include additional details to help maintainers reproduce the issue:
 
 * Use a clear and descriptive title that describes the problem.
-* Describe the exact steps necessary to reproduce the problem in as many details as possible.
+* Describe the exact steps necessary to reproduce the problem with as many details as possible.
 * Describe the behaviour you observed after following the steps and point out what exactly is the problem with that
   behaviour.
 * Explain which one was the expected behaviour and why.
@@ -87,12 +87,12 @@ Before creating a feature request, please check [this checklist](#before-submitt
 out that you don't need to create one. When you are creating a feature request, please
 [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion).
 
-Fill in [the issue template](issue-template.md), including the steps that you imagine you would take if the feature
+Fill in [the issue template](../templates/issue-template.md), including the steps that you imagine you would take if the feature
 you're requesting existed.
 
 #### Before submitting a feature request
 
-* Check if there's already [a component](openeuropa-components.md) which provides that enhancement.
+* Check if there's already [a component](../openeuropa-components.md) which provides that enhancement.
 * Check the project roadmap to understand if the feature is already being planned for future releases associated dates.
 * Determine [which repository the feature should be suggested in](#before-getting-started).
 * Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the feature has
@@ -101,7 +101,7 @@ you're requesting existed.
 #### How do I submit a (good) feature request?
 
 Feature requests are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined
-[which repository](#before-getting-starter) your feature suggestion is related to, create an issue on that repository
+[which repository](#before-getting-started) your feature suggestion is related to, create an issue on that repository
 and provide the following information:
 
 * Use a clear and descriptive title for the issue to identify the suggestion.
@@ -113,19 +113,23 @@ and provide the following information:
 
 ### Pull requests
 
-* Fill in the provided template. You can see a sample [here](#pull-request-template.md)
-* Make sure include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review)
+* Fill in the provided template. You can see a sample [here](../templates/pull-request-template.md).
+* Make sure to include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review)
   before submitting the pull request.
-* End all files with a newline
+* End all files with a newline.
 
 ## Style guide
 
 ### Git commit messages
 
-* Start the comment with the ticket number.
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move element to..." not "Moves element to...")
+* If the commit refers to an issue or a ticket, start the comment with the issue or ticket number,
+  then add a colon and a space ("#1234: " or "OPENEUROPA-1234: ").
+* Use the present tense ("Add feature" not "Added feature").
+* Use the imperative mood ("Move element to..." not "Moves element to...").
 * Limit the first line to 72 characters or less.
+* Do not end the first line with a period.
+
+Example of commit message: "#1234: Implement automatic feature generator".
 
 ### Code styling
 
