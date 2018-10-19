@@ -46,7 +46,7 @@ Information on the progress has to be regularly added in the associated GitHub t
 ## Lifecycle of proposed pull requests
 
 All contributed pull requests are to be created together with a related GitHub issue.
-These issues follow the lifecycle described above, regardless if the pull request was created together with the issue or not.
+These issues follow the lifecycle described above, regardless of whether the pull request was created together with the issue or not.
 
 In the case the issue was created together with a pull request or the issue has not been examined yet, the issue is handled as described above
 and the related internal ticket has to be reviewed. It is the responsibility of the contributor to handle any required modification to the proposed code.
