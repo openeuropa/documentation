@@ -58,7 +58,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 * Use a clear and descriptive title that describes the problem.
 * Describe the exact steps necessary to reproduce the problem with as many details as possible.
-* Describe the behaviour you observed after following the steps and point out exactly what exactly the problem is with that
+* Describe the behaviour you observed after following the steps and point out exactly what the problem is with that
   behaviour.
 * Explain what the expected behaviour is and why.
 * When applicable include screenshots or any other supporting material.
