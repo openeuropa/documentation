@@ -6,7 +6,7 @@ OpenEuropa is a project owned and maintained by the European Commission's DG DIG
 
 OpenEuropa components and features are created for European Commission internal web projects,
 but they are made as generic as possible and released as [Open Source Software](https://github.com/openeuropa/openeuropa/blob/master/LICENCE.txt)
-so they can also be used in other projects and receive contributions from the Open Source Community.
+so they can also be used in other projects and receive contributions from the Open Source Community (hereinafter referred to as "external contributors").
 
 DG DIGIT's OpenEuropa Core team is in charge of OpenEuropa developments and maintenance, under the supervision of its Product Owner,
 who decides on the priorities, depending on European Commission needs.
@@ -22,7 +22,7 @@ Contributions are governed by [OpenEuropa contribution guidelines](../initiative
 ## Lifecycle of proposed issues
 
 All contributed issues, both bug reports and feature requests, are handled as GitHub issues.
-This allows contributing users to follow up on the progress without the need to access DIGIT's internal ticketing system.
+This allows external contributors to follow up on the progress without the need to access DIGIT's internal ticketing system.
 
 Contributed issues are regularly examined by the maintainers of the repository they were created in.
 Maintainers are able to decide whether the contributed issue has value or not, in which case it will be duplicated into an internal ticket
@@ -41,7 +41,7 @@ Maintainers are advised to use their know-how and best common sense to filter th
 Once the issues have been moved to an internal ticket, the maintainers have to decide together with the OpenEuropa Product Owner on the priority of issues,
 after which the tickets are handled following the usual development workflow of all OpenEuropa tickets (which itself is based on Agile methodologies).
 
-Information on the progress has to be regularly added in the associated GitHub ticket as well, in order for the contributor to be kept informed.
+Information on the progress has to be regularly added in the associated GitHub ticket as well, in order for the external contributor(s) to be kept informed.
 
 ## Lifecycle of proposed pull requests
 
