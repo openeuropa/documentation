@@ -18,6 +18,7 @@ For more information please check:
   * [Code of Conduct](docs/initiative/code-of-conduct.md) 
   * [Release cycle](docs/initiative/release-cycle.md)
   * [How to contribute](docs/initiative/how-to-contribute.md)
+  * [Contribution workflow](docs/initiative/contribution-workflow.md)
 * [OpenEuropa components](docs/openeuropa-components.md)  
 * Before you start
   * [Repositories architecture](docs/starting/repository-architecture.md)
