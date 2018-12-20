@@ -43,6 +43,17 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/drupal-core-require"><b>Drupal Core require</b></a><br/>
+            This package provides the require dependencies of drupal/core as a standalone package.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/drupal-core-require"><img src="https://img.shields.io/packagist/v/openeuropa/drupal-core-require.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/drupal-core-require"><img src="https://drone.fpfis.eu/api/badges/openeuropa/drupal-core-require/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-core-require"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-core-require.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/drupal-core-require-dev"><b>Drupal Core require dev</b></a><br/>
             This package provides the require dependencies of drupal/core as a standalone package.
         </td>
@@ -187,6 +198,27 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/v/openeuropa/oe_content.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_content"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_content/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_content.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/drupal-module-template"><b>OpenEuropa Drupal Module Template</b></a><br/>
+            Builds the default files for a module to be used with the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/drupal-module-template"><img src="https://drone.fpfis.eu/api/badges/openeuropa/drupal-module-template/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-module-template.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_editorial"><b>OpenEuropa Editorial</b></a><br/>
+            Editorial features for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/v/openeuropa/oe_editorial.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_editorial"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_editorial/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_editorial.svg"/></a>
         </td>
     </tr>
     <tr>
