@@ -191,6 +191,38 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/drupal-module-template"><b>OpenEuropa Drupal Module Template</b></a><br/>
+            Builds the default files for a module to be used with the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/drupal-module-template"><img src="https://drone.fpfis.eu/api/badges/openeuropa/drupal-module-template/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-module-template.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_editorial"><b>OpenEuropa Editorial</b></a><br/>
+            Editorial features for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/v/openeuropa/oe_editorial.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_editorial"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_editorial/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_editorial.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_media"><b>OpenEuropa Media</b></a><br/>
+            The OpenEuropa Media module provides functionality for inclusion of Media on sites.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_media"><img src="https://img.shields.io/packagist/v/openeuropa/oe_media.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_media"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_media/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_media"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_media.svg"/></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_multilingual"><b>OpenEuropa Multilingual</b></a><br/>
             Multilingual features for the OpenEuropa project.
         </td>
