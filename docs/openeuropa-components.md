@@ -65,61 +65,6 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
     </tr>
     <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/europa-search-client"><b>Europa Search Client</b></a><br/>
-            PHP client for the Europa Search service.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/europa-search-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/europa-search-client/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/ec-europa/oe-poetry-client"><b>Poetry Client</b></a><br/>
-            Client library for the European Commission Poetry Service.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-client.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/ec-europa/oe-poetry-client"><img src="https://drone.fpfis.eu/api/badges/ec-europa/oe-poetry-client/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-client"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-client.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/ec-europa/oe-poetry-behat"><b>Poetry Client Behat Extension</b></a><br/>
-            Behat extension for the European Commission's Poetry Client.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/v/ec-europa/oe-poetry-behat.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/ec-europa/oe-poetry-behat"><img src="https://drone.fpfis.eu/api/badges/ec-europa/oe-poetry-behat/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/ec-europa/oe-poetry-behat"><img src="https://img.shields.io/packagist/dt/ec-europa/oe-poetry-behat.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/openeuropa/pcas"><b>pCAS - PHP Cas library</b></a><br/>
-            Authentification library for authenticating users on a CAS server.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/v/openeuropa/pcas.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/pcas"><img src="https://drone.fpfis.eu/api/badges/openeuropa/pcas/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/pcas"><img src="https://img.shields.io/packagist/dt/openeuropa/pcas.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/openeuropa/pcas-demo"><b>Demo pCAS library</b></a><br/>
-            The package contains two independent Symfony applications "demo-client" and "demo-server".
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/pcas-demo"><img src="https://img.shields.io/packagist/v/openeuropa/pcas-demo.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/pcas-demo"><img src="https://drone.fpfis.eu/api/badges/openeuropa/pcas-demo/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/pcas-demo"><img src="https://img.shields.io/packagist/dt/openeuropa/pcas-demo.svg"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a title="Repository" href="https://github.com/openeuropa/syncope-php-client"><b>Syncope PHP Client</b></a><br/>
             This package profiles a client for Syncope.
         </td>
