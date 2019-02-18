@@ -8,14 +8,6 @@ All code is distributed on [Packagist][3] and released under the [EUPL-1.2 licen
 All projects use Semantic Versioning. Attention is drawn to <a href="https://semver.org/#spec-item-4">item 4 of the Semantic Versioni specification</a>
 'Major version zero (0.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.'
 
-### Test table
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| @voidtek |  left-aligned | $1600 |
-| @drupol |    centered   |   $12 |
-| @richardcanoe | right-aligned |    $1 |
-
 ### PHP projects
 
 <table>
