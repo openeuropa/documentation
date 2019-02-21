@@ -1,6 +1,6 @@
 # Forms
 
-The Form API in Drupal 8 has taken steps towards an object oriented architecture, forms now being defined as classes. With this come many of the OOP benefits such as [dependency injection](services-dependancy-injection.md) and testability.
+The Form API in Drupal 8 has taken steps towards an object oriented architecture, forms now being defined as classes. With this come many of the OOP benefits such as [dependency injection](services-dependency-injection.md) and testability.
 
 ## Creating a form
 
