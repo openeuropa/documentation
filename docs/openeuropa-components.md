@@ -26,7 +26,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/behat-transformation-context"><img src="https://drone.fpfis.eu/api/badges/openeuropa/behat-transformation-context/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/behat-transformation-context"><img src="https://img.shields.io/packagist/dt/openeuropa/behat-transformation-context.svg"/></a></td>
         <td><a href="https://github.com/voidtek">Victor Da Costa</a><br/>
-            <a href="https://github.com/dxvargas">D Vargas</a></td>
+            <a href="https://github.com/dxvargas">Diogo Vargas</a></td>
     </tr>
     <tr>
         <td>
@@ -127,7 +127,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_authentication.svg"/></a>
         </td>
  <td><a href="https://github.com/imanoleguskiza">Imanol Eguskiza</a><br/>
-            <a href="https://github.com/dxvargas">D Vargas</a></td>
+            <a href="https://github.com/dxvargas">Diogo Vargas</a></td>
     </tr>
     <tr>
         <td>
@@ -135,10 +135,11 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             Builds the default files for a module to be used with the OpenEuropa project.
         </td>
         <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/v/openeuropa/drupal-module-template.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/drupal-module-template"><img src="https://drone.fpfis.eu/api/badges/openeuropa/drupal-module-template/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-module-template.svg"/></a>
         </td>
- <td><a href="https://github.com/dxvargas">D Vargas</a></td>
+ <td><a href="https://github.com/dxvargas">Diogo Vargas</a></td>
     </tr>
     <tr>
         <td>
@@ -164,7 +165,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_multilingual.svg"/></a>
         </td>
  <td><a href="https://github.com/voidtek">Victor Da Costa</a><br/>
-            <a href="https://github.com/dxvargas">D Vargas</a></td>
+            <a href="https://github.com/dxvargas">Diogo Vargas</a></td>
     </tr>
     <tr>
         <td>
