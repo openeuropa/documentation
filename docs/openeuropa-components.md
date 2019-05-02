@@ -131,6 +131,31 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     </tr>
     <tr>
         <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_content"><b>OpenEuropa Content</b></a><br/>
+            A Drupal module that contains the corporate entity types in Drupal.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/v/openeuropa/oe_content.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_content"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_content/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_content.svg"/></a>
+        </td>
+ <td><a href="https://github.com/nagyad">Adam</a><br/>
+            <a href="https://github.com/brummbar">Francesco</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_corporate_blocks"><b>OpenEuropa Corporate Blocks</b></a><br/>
+            A Drupal module that contains the OpenEuropa Corporate Blocks in Drupal.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_corporate_blocks"><img src="https://img.shields.io/packagist/v/openeuropa/oe_corporate_blocks.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_corporate_blocks"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_corporate_blocks/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_corporate_blocks"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_corporate_blocks.svg"/></a>
+        </td>
+ <td><a href="https://github.com/nagyad">Adam</a><br/></td>
+    </tr>
+    <tr>
+        <td>
             <a title="Repository" href="https://github.com/openeuropa/drupal-module-template"><b>OpenEuropa Drupal Module Template</b></a><br/>
             Builds the default files for a module to be used with the OpenEuropa project.
         </td>
@@ -140,6 +165,19 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/dt/openeuropa/drupal-module-template.svg"/></a>
         </td>
  <td><a href="https://github.com/dxvargas">Diogo Vargas</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_editorial"><b>OpenEuropa Editorial</b></a><br/>
+            Editorial features for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/v/openeuropa/oe_editorial.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_editorial"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_editorial/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_editorial.svg"/></a>
+        </td>
+ <td><a href="https://github.com/nagyad">Adam</a><br/>
+            <a href="https://github.com/hernani">hernani</a></td>
     </tr>
     <tr>
         <td>
@@ -204,6 +242,18 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
         </td>
  <td><a href="https://github.com/upchuk">Daniel Sipos</a><br/>
             <a href="https://github.com/brummbar">Francesco</a></td>
+    </tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_search"><b>OpenEuropa Search</b></a><br/>
+            Drupal profile for the OpenEuropa project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_search"><img src="https://img.shields.io/packagist/v/openeuropa/oe_search.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_search"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_search/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_search"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_search.svg"/></a>
+        </td>
+ <td><a href="https://github.com/sergepavle">Sergii Pavlenko</a></td>
     </tr>
     <tr>
         <td>
