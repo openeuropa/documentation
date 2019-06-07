@@ -231,19 +231,6 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
  <td><a href="https://github.com/imanoleguskiza">Imanol Eguskiza</a><br/>
             <a href="https://github.com/upchuk">Daniel Sipos</a></td>
     </tr>
-    <tr>
-        <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_webtools_location"><b>OpenEuropa Webtools Location Services</b></a><br/>
-            Drupal module that provides integration with Webtools location services, such as geocoding and maps.
-        </td>
-        <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools_location"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools_location.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_webtools_location"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools_location/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools_location"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_webtools_location.svg"/></a>
-        </td>
- <td><a href="https://github.com/pfrenssen">Pieter Frenssen</a><br/>
-            <a href="https://github.com/drupol">Pol Dellaiera</a></td>
-    </tr>
 </table>
 
 [1]: http://www.php-fig.org
