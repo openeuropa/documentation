@@ -33,6 +33,7 @@ For more information please check:
       * [Writing tests](docs/architecture/third-party/drupal/testing.md)
       * [Module selection](docs/architecture/third-party/drupal/selecting-contributed-modules.md)
       * [Experimental modules policy](docs/architecture/third-party/drupal/experimental-module-policy.md)
+      * [Module update policy](docs/architecture/third-party/drupal/module-update-policy.md)
 * Development
   * [Development Workflow](docs/development/development-workflow.md)
   * [Feature development guidelines](docs/development/feature-development.md)
