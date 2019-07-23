@@ -136,16 +136,16 @@ In order to tweak settings or adjust configuration of a specific container, plea
 
 In order to maximise the performance of using Docker on macOS, we strongly advise using at least version 18.03.1 of Docker which supports native NFS integration. You can find a very comprehensive article about this topic under following link [Set Up Docker For Mac with Native NFS](https://medium.com/@sean.handley/how-to-set-up-docker-for-mac-with-native-nfs-145151458adc).
 
-Basically, what is required can be defined in two steps.
+What is required can be defined in two steps.
 
 First is to run the bash script in order to configure Docker native NFS support.
 You can find the source of a script in the article or by using this link [setup_native_nfs_docker_osx.sh](https://gist.githubusercontent.com/seanhandley/7dad300420e5f8f02e7243b7651c6657/raw/fdd77fe66cf9ce893fa0175d735cbede2bb065e4/setup_native_nfs_docker_osx.sh).
 
-Next, you must include an additional volume definition inside the `docker-compose.yml` file.
+Next, you must include an additional volume definition inside the `docker-compose.override.yml` file. OpenEuropa components ship with the volume definition in their `docker-compose.yml` file, commented out. But you can also find the example of how to do so below. 
 
-You can find the example of how to do so below. In the additional part `volumes`, the volume `nfsmount` is defined and configured to use NFS native support. Then you can reference the defined volume as a storage of a container.
+In the second part keyed by `volumes`, the volume `nfsmount` is defined and configured to use NFS native support. Then you can reference the defined volume as a storage of a container.
 
-In the example below the `nfsmount` volume is used as a storage for the `web` container and mount to the `var/www/html` directory inside the container. From the local machine perspective it mounts the main directory where the `docker-compose.yml` file is located into the directory configured in a give container (`/var/www/html` in this particular case).
+In the example below, the `nfsmount` volume is used as a storage for the `web` container and mount to the `var/www/html` directory inside the container. From the local machine perspective it mounts the main directory where the `docker-compose.yml` file is located into the directory configured in a give container (`/var/www/html` in this particular case).
 
 ```yml
 # Example of the docker-compose.yml file with the additional volume definition.

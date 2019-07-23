@@ -1,7 +1,5 @@
-
 # CI Deployment Workflow
 
-OpenEuropa is using [Drone][1] for continuous integration and continuous delivery.
-For more information about Drone please check [Drone](docs/development/third-party/drone.md)]
+OpenEuropa is using [Drone](https://drone.io) for continuous integration and continuous delivery.
 
-[1]: https://drone.io
+You can see a default Drone pipeline configuration in the [Drupal module template repository](https://github.com/openeuropa/drupal-module-template/blob/master/.drone.yml).
