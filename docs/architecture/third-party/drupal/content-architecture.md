@@ -6,7 +6,7 @@ The OpenEuropa project does not enforce a strict content architecture but provid
 
 The [OpenEuropa Content](https://github.com/openeuropa/oe_content) component provides a growing number of corporate content types intended to harmonize the content architecture across the sites of the European Commission.
 
-Moreover, it provides RDF-based support for the corporate vocabularies published by the European Publication Office (OP).
+Moreover, it provides RDF-based support for the corporate vocabularies published by the [European Publication Office (OP)](https://publications.europa.eu/en/home).
 
 ## Page building
 
