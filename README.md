@@ -36,7 +36,6 @@ For more information please check:
       * [Module update policy](docs/architecture/third-party/drupal/module-update-policy.md)
 * Development
   * [Development Workflow](docs/development/development-workflow.md)
-  * [Feature development guidelines](docs/development/feature-development.md)
   * [Coding standards](docs/development/coding-standards.md)
   * [Frontend development](docs/development/frontend/index.md)
   * Third party development

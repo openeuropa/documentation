@@ -124,8 +124,8 @@ and provide the following information:
 
 * If the commit refers to an issue or a ticket, start the comment with the issue or ticket number,
   then add a colon and a space ("#1234: " or "OPENEUROPA-1234: ").
-* Use the present tense ("Add feature" not "Added feature").
-* Use the imperative mood ("Move element to..." not "Moves element to...").
+* Prefer the present tense ("Add feature" not "Added feature").
+* Prefer the imperative mood ("Move element to..." not "Moves element to...").
 * Limit the first line to 72 characters or less.
 * Do not end the first line with a period.
 
