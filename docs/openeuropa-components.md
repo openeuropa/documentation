@@ -57,7 +57,6 @@ Maintainers: [Hernani](https://github.com/hernani), [Adam](https://github.com/na
 Components:
 - [OpenEuropa Media](https://github.com/openeuropa/oe_media)
 - [OpenEuropa Oembed](https://github.com/openeuropa/oe_oembed)
-- [OpenEuropa Media AVPortal](https://github.com/openeuropa/oe_media_avportal)
 
 ### Authentication track
 
