@@ -10,6 +10,10 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
 
 Components are divided by track, each track has a few OpenEuropa team members responsible for it.
 
+## Main tracks
+
+Below the main, active tracks maintained by the OpenEuropa core team:
+
 ### Editorial track
 
 Maintainers: [Hernani](https://github.com/hernani), [Adam](https://github.com/nagyad), [Diogo](https://github.com/dxvargas)
@@ -77,10 +81,20 @@ Components:
 Maintainers: [Antonio](https://github.com/ademarco), [Diogo](https://github.com/dxvargas), [Victor](https://github.com/voidtek)
 
 Components:
-- [Drupal Site Template](https://github.com/openeuropa/drupal-site-template)
-- [Drupal Module Template](https://github.com/openeuropa/drupal-module-template)
-- [Task Runner](https://github.com/openeuropa/task-runner)
+- [Behat transformation context](https://github.com/openeuropa/behat-transformation-context)
 - [Code Review](https://github.com/openeuropa/code-review)
+- [Composer artifacts](https://github.com/openeuropa/composer-artifacts)
+- [Drupal Module Template](https://github.com/openeuropa/drupal-module-template)
+- [Drupal Site Template](https://github.com/openeuropa/drupal-site-template)
+- [Drupal core require dev](https://github.com/openeuropa/drupal-core-require-dev)
+- [OpenEuropa Profile](https://github.com/openeuropa/oe_profile)
+- [Task Runner](https://github.com/openeuropa/task-runner)
+
+## Additional components
+
+Below additional components maintained by other DIGIT teams:
+
+- [Webtools geocoding provider](https://github.com/openeuropa/webtools-geocoding-provider)
 
 
 [1]: http://www.php-fig.org
