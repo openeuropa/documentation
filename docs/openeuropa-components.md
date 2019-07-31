@@ -16,71 +16,77 @@ Below the main, active tracks maintained by the OpenEuropa core team:
 
 ### Editorial track
 
-Maintainers: [Hernani](https://github.com/hernani), [Adam](https://github.com/nagyad), [Diogo](https://github.com/dxvargas)
-  
-Components:
 - [OpenEuropa Editorial](https://github.com/openeuropa/oe_editorial)
+
+Maintained by [@Hernani](https://github.com/hernani), [@Adam](https://github.com/nagyad), [@Diogo](https://github.com/dxvargas)
+
+Slack Channel [#openeuropa-editorial](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-editorial)
 
 ### Multilingual track
 
-Maintainers: [Daniel](https://github.com/upchuk), [Diogo](https://github.com/dxvargas), [Imanol](https://github.com/imanoleguskiza)
-
-Components:
 - [OpenEuropa Multilingual](https://github.com/openeuropa/oe_multilingual)
 - [OpenEuropa Translation](https://github.com/openeuropa/oe_translation)
 
+Maintained by [@Daniel](https://github.com/upchuk), [@Diogo](https://github.com/dxvargas), [@Imanol](https://github.com/imanoleguskiza)
+
+Slack Channel [#openeuropa-multilingual](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-multilingual)
+
 ### Webtools track
 
-Maintainers: [Francesco](https://github.com/brummbar), [Imanol](https://github.com/imanoleguskiza), [Sergii](https://github.com/sergepavle)
-
-Components:
 - [OpenEuropa Webtools](https://github.com/openeuropa/oe_webtools)
+
+Maintained by [@Francesco](https://github.com/brummbar), [@Imanol](https://github.com/imanoleguskiza), [@Sergii](https://github.com/sergepavle)
+
+Slack Channel [#openeuropa-webtools](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-webtools)
 
 ### Theme track
 
-Maintainers: [Antonio](https://github.com/ademarco), [Imanol](https://github.com/imanoleguskiza), [Victor](https://github.com/voidtek)
-
-Components:
 - [OpenEuropa Theme](https://github.com/openeuropa/oe_theme)
 - [OpenEuropa ECL Twig Loader](https://github.com/openeuropa/ecl-twig-loader)
 
+Maintained by [@Antonio](https://github.com/ademarco), [@Imanol](https://github.com/imanoleguskiza), [@Victor](https://github.com/voidtek)
+
+Slack Channel [#openeuropa-theme](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-theme)
+
 ### Content track
 
-Maintainers: [Francesco](https://github.com/brummbar), [Adam](https://github.com/nagyad), [Sergii](https://github.com/sergepavle), [Daniel](https://github.com/upchuk)
-
-Components:
 - [OpenEuropa Content](https://github.com/openeuropa/oe_content)
 - [OpenEuropa Paragraphs](https://github.com/openeuropa/oe_paragraphs)
 - [OpenEuropa Corporate Blocks](https://github.com/openeuropa/oe_corporate_blocks)
 - [OpenEuropa RDF SKOS](https://github.com/openeuropa/rdf_skos)
 
+Maintained by [@Francesco](https://github.com/brummbar), [@Adam](https://github.com/nagyad), [@Sergii](https://github.com/sergepavle), [@Daniel](https://github.com/upchuk)
+
+Slack Channel [#openeuropa-content](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-content)
+
 ### Media track
 
-Maintainers: [Hernani](https://github.com/hernani), [Adam](https://github.com/nagyad), [Daniel](https://github.com/upchuk)
-
-Components:
 - [OpenEuropa Media](https://github.com/openeuropa/oe_media)
 - [OpenEuropa Oembed](https://github.com/openeuropa/oe_oembed)
 
+Maintained by [@Hernani](https://github.com/hernani), [@Adam](https://github.com/nagyad), [@Daniel](https://github.com/upchuk)
+
+Slack Channel [#openeuropa-media](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-media)
+
 ### Authentication track
 
-Maintainers: [Hernani](https://github.com/hernani), [Imanol](https://github.com/imanoleguskiza)
-
-Components:
 - [OpenEuropa Authentication](https://github.com/openeuropa/oe_authentication)
 
-### Search track
+Maintained by [@Hernani](https://github.com/hernani), [@Imanol](https://github.com/imanoleguskiza)
 
-Maintainers: [Francesco](https://github.com/brummbar), [Sergii](https://github.com/sergepavle), [Victor](https://github.com/voidtek)
+Slack Channel [#openeuropa-authentication](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-authentication)
+
+### Search track
 
 Components:
 - [OpenEuropa Search](https://github.com/openeuropa/oe_search)
 
+Maintained by [@Francesco](https://github.com/brummbar), [@Sergii](https://github.com/sergepavle), [@Victor](https://github.com/voidtek)
+
+Slack Channel [#openeuropa-search](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-search)
+
 ### Tooling track
 
-Maintainers: [Antonio](https://github.com/ademarco), [Diogo](https://github.com/dxvargas), [Victor](https://github.com/voidtek)
-
-Components:
 - [Behat transformation context](https://github.com/openeuropa/behat-transformation-context)
 - [Code Review](https://github.com/openeuropa/code-review)
 - [Composer artifacts](https://github.com/openeuropa/composer-artifacts)
@@ -90,12 +96,15 @@ Components:
 - [OpenEuropa Profile](https://github.com/openeuropa/oe_profile)
 - [Task Runner](https://github.com/openeuropa/task-runner)
 
+Maintained by [@Antonio](https://github.com/ademarco), [@Diogo](https://github.com/dxvargas), [@Victor](https://github.com/voidtek)
+
+Slack Channel [#openeuropa-tooling](http://platform-ec-europa.slack.com/app_redirect?channel=openeuropa-tooling)
+
 ## Additional components
 
 Below additional components maintained by other DIGIT teams:
 
 - [Webtools geocoding provider](https://github.com/openeuropa/webtools-geocoding-provider)
-
 
 [1]: http://www.php-fig.org
 [2]: http://www.phptherightway.com
