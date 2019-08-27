@@ -24,6 +24,8 @@ For more information please check:
   * [Repositories architecture](docs/starting/repository-architecture.md)
   * [Dependency management](docs/starting/dependency-management-and-patching.md)
   * [Tooling](docs/starting/tooling.md)
+* Common tasks
+  * [Add a sidebar to the theme](docs/theming/sidebar.md) 
 * Architecture
   * Third party
     * Drupal
