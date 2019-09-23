@@ -10,7 +10,7 @@ so that we can be sure they are executed in the right order.
 
 Our current convention is a 5-digits numeric string starting from `00001`, as shown below:
 
-```php
+```
 /**
  * A meaningful comment describing the first update.
  */
