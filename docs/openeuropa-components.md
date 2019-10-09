@@ -38,7 +38,7 @@ Components:
 
 ### Theme track
 
-Maintainers: [Antonio](https://github.com/ademarco), [Imanol](https://github.com/imanoleguskiza), [Victor](https://github.com/voidtek)
+Maintainers: [Antonio](https://github.com/ademarco), [Imanol](https://github.com/imanoleguskiza), [Sergii](https://github.com/sergepavle)
 
 Components:
 - [OpenEuropa Theme](https://github.com/openeuropa/oe_theme)
