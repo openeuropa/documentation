@@ -184,7 +184,8 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
         </td></tr>
 </table>
 
-#PHP projects
+###PHP projects
+
 <table>
     <tr>
         <th>Component</th>
