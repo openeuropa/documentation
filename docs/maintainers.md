@@ -1,4 +1,4 @@
-# OpenEuropa mainainers
+# OpenEuropa maintainers
 
 OpenEuropa components are divided by track, each track has a few OpenEuropa team members responsible for it.
 
