@@ -6,7 +6,7 @@ of [open source][2] tools and practices in consolidating the European Institutio
 
 In order to achieve such a goal the OpenEuropa Initiative will focus on the following activities:
 
-- Build, maintain and release loosely-coupled, reusable software components, licensed under [EUPL-1.2][3].
+- Build, maintain and release loosely-coupled, reusable software [components](docs/openeuropa-components.md) , licensed under [EUPL-1.2][3].
 - Build, maintain and release fully-fledged solutions for the European Institutions.
 - Provide a high-level architecture overview of web-related information systems.
 - Establish reusable technical governance guidelines.
@@ -19,7 +19,9 @@ For more information please check:
   * [Release cycle](docs/initiative/release-cycle.md)
   * [How to contribute](docs/initiative/how-to-contribute.md)
   * [Contribution workflow](docs/initiative/contribution-workflow.md)
-* [OpenEuropa components](docs/openeuropa-components.md)  
+* OpenEuropa Components
+  * [OpenEuropa components](docs/openeuropa-components.md)  
+  * [OpenEuropa maintainers](docs/maintainers.md)  
 * Before you start
   * [Repositories architecture](docs/starting/repository-architecture.md)
   * [Dependency management](docs/starting/dependency-management-and-patching.md)
