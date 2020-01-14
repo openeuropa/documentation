@@ -19,8 +19,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_authentication"><b>OpenEuropa Authentication</b></a><br/>
         This module allows to authenticate users against the European Commission login service. Details of this service can be found <a href="https://webgate.ec.europa.eu/cas/about.html">here</a>.
-        EU Login service parameters are already set by default when installing the module. Please refer to the EU Login documentation for the available
-        options that can be specified. You can see Project setup section on how to override these parameters.</td>
+        </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_authentication"><img src="https://img.shields.io/packagist/v/openeuropa/oe_authentication.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_authentication"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_authentication/status.svg"/></a>
@@ -29,15 +28,8 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_content"><b>OpenEuropa Content</b></a><br/>
-    This is a Drupal module that contains the EC corporate entity types.
-    Current content types are:
-    <ul><li>Landing page</li>
-    <li>News</li>
-    <li>Page</li>
-    <li>Policy</li>
-    <li>Publication</li></ul>
-    The module uses the RDF SKOS
-    module to provide SKOS modelling for the Publications Office taxonomy vocabularies. These are directly made available in the dependent RDF triple store.
+    This component ships with corporate and standardised content and entity types, as well as content modelling and handling functionalities.
+    Additionally, it uses the <a title="Repository" href="https://github.com/openeuropa/rdf_skos">OpenEuropa RDF SKOS component</a> to integrate the Publications Office (OP) vocabularies.
     </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_content"><img src="https://img.shields.io/packagist/v/openeuropa/oe_content.svg"/></a>
@@ -47,8 +39,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_corporate_blocks"><b>OpenEuropa Corporate Blocks</b></a><br/>
-            This is a Drupal module that contains the EC corporate blocks. These are currently the Footer and Site Switcher.
-            The Site Switcher is deprecated and will be removed in version 2.x. Others will be added as requirements emerge.
+            This simple component contains the European Commission corporate blocks meant to display standardised parts of EC sites, such as the footer. It integrates with the <a title="Repository" href="https://github.com/openeuropa/oe_theme">OpenEuropa Theme</a> for styling.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_corporate_blocks"><img src="https://img.shields.io/packagist/v/openeuropa/oe_corporate_blocks.svg"/></a>
@@ -58,7 +49,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/drupal-module-template"><b>OpenEuropa Drupal Module Template</b></a><br/>
-            Builds the default files for a module to be used with the OpenEuropa project.
+            Builds the default files for a component to be used with the OpenEuropa project.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/drupal-module-template"><img src="https://img.shields.io/packagist/v/openeuropa/drupal-module-template.svg"/></a>
@@ -69,30 +60,29 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_editorial"><b>OpenEuropa Editorial</b></a><br/>
-            Editorial features for the OpenEuropa project. It provides 4 sub-modules:
-            
-<ul><li>Oe_editorial_content_lock<br />
-Editorial Content Lock prevents multiple users editing content concurrently.</li>
-<li>Oe_editorial_corporate_workflow<br />
-            OE corporate Workflow provides the workflow for all corporate content.</li>
-            <li>oe_editorial_entity_version<br />
-            OE editorial entity version provides the mechanism for versioning entities.</li>
-            <li>Oe_editorial_workflow_demo<br />
-            Editorial workflow demo module to showcase the workflows for the OpenEuropa project.</li></ul>
+            This component provides various editorial features (workflow, versioning, etc), shipped as indiviual submodules. 
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/v/openeuropa/oe_editorial.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_editorial"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_editorial/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_editorial.svg"/></a>
-        </td> <tr>
+        </td> 
+        </tr>
+            <tr>
+            <td>
+                <a title="Repository" href="https://github.com/openeuropa/oe_link_lists"><b>OpenEuropa Link Lists</b></a><br/>
+                This component provides site building features that allow the creation of lists of links, external and to internal content, dyanamic and manual.
+            </td>
+            <td width="250">
+                <a title="Version" href="https://packagist.org/packages/openeuropa/oe_link_lists"><img src="https://img.shields.io/packagist/v/openeuropa/oe_link_lists.svg"/></a>
+                <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_link_lists"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_link_lists/status.svg"/></a>
+                <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_link_lists"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_link_lists.svg"/></a>
+            </td> 
+        </tr>
+        <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_media"><b>OpenEuropa Media</b></a><br/>
-            The OpenEuropa Media module provides functionality for inclusion of Media on sites.
-            The following types of Media (bundles) are currently available:
-            <ul><li>Images (local)</li>
-            <li>Files (local)</li>
-            <li>Remote video (supports Youtube, Vimeo, Daily Motion)</li></ul>
-            Additionally, there is a demo module inside that exposes a content type and a generic Entity Browser meant to demonstrate the usage of Media with content.
+            This component provides functionality for using Media of various types. Things like images, remote videos and integration with the EC AV Portal service are included.
             </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_media"><img src="https://img.shields.io/packagist/v/openeuropa/oe_media.svg"/></a>
@@ -102,11 +92,7 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_multilingual"><b>OpenEuropa Multilingual</b></a><br/>
-            The OpenEuropa Multilingual module offers the following default multilingual features for the OpenEuropa project:
-            <ul><li>Enable all 24 official EU languages</li>
-            <li>rovide an optional language switcher block on the <a href="https://github.com/openeuropa/oe_theme">OpenEuropa Theme</a> site header region</li>
-            <li>Make sure that the administrative interface is always set to English</li>
-            <li>Allow English to be translated so that the default English copy may be fixed or improved, if necessary</li></ul>
+            This component provides EC corporate multilingual features such as the official EU languages, language switcher, language negotiation, etc.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_multilingual"><img src="https://img.shields.io/packagist/v/openeuropa/oe_multilingual.svg"/></a>
@@ -116,7 +102,7 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_paragraphs"><b>OpenEuropa Paragraphs</b></a><br/>
-            This module integrates the ECL, the component library of the European Commission, with the Paragraphs module.
+            This component provides various Drupal paragraph types meant that display using the ECL components via the <a title="Repository" href="https://github.com/openeuropa/oe_theme">OpenEuropa Theme</a>.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_paragraphs"><img src="https://img.shields.io/packagist/v/openeuropa/oe_paragraphs.svg"/></a>
@@ -126,7 +112,7 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_profile"><b>OpenEuropa Profile</b></a><br/>
-            Drupal profile for the OpenEuropa project.
+            A basic installation profile that can be used for sites that use OpenEuropa components.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_profile"><img src="https://img.shields.io/packagist/v/openeuropa/oe_profile.svg"/></a>
@@ -136,7 +122,7 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/rdf_skos"><b>OpenEuropa RDF SKOS</b></a><br/>
-            A SKOS implementation for RDF entity
+            An <a href="https://www.drupal.org/project/rdf_entity" target="_blank">RDF Entity</a> based implementation for SKOS vocabularies located in triple stores. This can be used for integrating the taxonomies provided by the EC Publications Office (OP). See also the <a title="Repository" href="https://github.com/openeuropa/oe_content">OpenEuropa Content</a> component.
         </td>
         <td>
             <a title="Version" href="https://packagist.org/packages/openeuropa/rdf_skos"><img src="https://img.shields.io/packagist/v/openeuropa/rdf_skos.svg"/></a>
@@ -146,7 +132,7 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_search"><b>OpenEuropa Search</b></a><br/>
-            Drupal profile for the OpenEuropa project.
+            This component provides corporate search functionalities.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_search"><img src="https://img.shields.io/packagist/v/openeuropa/oe_search.svg"/></a>
@@ -164,18 +150,20 @@ Editorial Content Lock prevents multiple users editing content concurrently.</li
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg"/></a>
         </td></tr>
     <tr>
+        <tr>
+            <td>
+                <a title="Repository" href="https://github.com/openeuropa/oe_translation"><b>OpenEuropa Translation</b></a><br/>
+                This component provides translation capabilities for multilingual sites and integrations with various external translation services such as DGT Poetry.
+            </td>
+            <td>
+                <a title="Version" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/v/openeuropa/oe_translation.svg"/></a>
+                <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_translation"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_translation/status.svg"/></a>
+                <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_translation.svg"/></a>
+            </td></tr>
+        <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_webtools"><b>OpenEuropa Webtools</b></a><br/>
-        Drupal module providing webtools analytics integration such as Matomo (formerly PIWIK).
-        Sub modules: 
-        <ul><li>Oe_webtools_analytics<br />
-        A Webtools Laco service that provides information on page access to a 3rd party analytics service.</li>
-        <li>Oe_webtools_cookie_consent<br />
-        Provides the Cookie consent kit service functionality.</li>
-        <li>Oe_webtools_laco_service<br />
-        A Webtools Laco service that provides information on whether an entity has a translation in a specific language.</li>
-        <li>Oe_webtools_laco_widget<br />
-        Provides a widget that integrates with the Webtools Laco service and which checks if a link to a page or document is available in other translations.</li></ul>
+            This component provides integration with the EC Webtools service for various widgets and functionalities such as analytics, LACO, cookie consent, etc. 
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools.svg"/></a>
