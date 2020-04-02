@@ -36,13 +36,13 @@ For more information please check:
   * [Coding standards](docs/development/coding-standards.md)
   * [Frontend development](docs/development/frontend/index.md) 
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
+  * [Code reviews](docs/development/code-reviews.md)
   * [Release workflow](docs/development/release-workflow.md)
-  * Development guides
-    * Drupal
-        * [Drupal](docs/development/third-party/drupal/index.md)
 * Templates
     * [Issue template](docs/templates/issue-template.md)
     * [Pull request template](docs/templates/pull-request-template.md)
+* Development guides
+    * [Drupal](docs/development/third-party/drupal/index.md)
 * [Automated testing](docs/automated-testing.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
