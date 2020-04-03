@@ -33,6 +33,13 @@ Drupal themes are based on the Europa Component Library and should follow the [E
 All PHP based components that are not part of the Drupal ecosystem MUST adhere to the [PSR-2][2] standards.
 This applies to any library or component that is mainly developed in PHP.
 
+## Additional rules
+[Type declarations][8] are mandatory for both parameters and return values in all methods.  
+No type declaration should be added when extending/implementing existing classes/interfaces that do not have type
+declarations in their method signatures already, to keep intact the signature itself.  
+To ensure that only variables of exact type of the type declaration are accepted, all PHP files should have the [strict
+type declaration][9] statement at the top.  
+
 
 [1]: https://www.php-fig.org/psr/psr-1/
 [2]: https://www.php-fig.org/psr/psr-2/
@@ -41,3 +48,5 @@ This applies to any library or component that is mainly developed in PHP.
 [5]: https://github.com/openeuropa/code-review/blob/master/README.md
 [6]: https://www.drupal.org/docs/develop/standards
 [7]: https://ec-europa.github.io/europa-component-library/ec/docs/conventions/component
+[8]: https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration
+[9]: https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict
