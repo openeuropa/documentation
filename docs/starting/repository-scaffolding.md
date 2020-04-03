@@ -1,4 +1,4 @@
-# Repository Architecture
+# Repository scaffolding
 
 Repositories follow a certain structure that allows for a fast and easy development setup.
 

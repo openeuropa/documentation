@@ -23,30 +23,26 @@ For more information please check:
   * [OpenEuropa components](docs/openeuropa-components.md)  
   * [OpenEuropa maintainers](docs/maintainers.md)  
 * Before you start
-  * [Repositories architecture](docs/starting/repository-architecture.md)
-  * [Dependency management](docs/starting/dependency-management-and-patching.md)
-  * [Tooling](docs/starting/tooling.md)
-* Architecture
-  * Third party
-    * Drupal
-      * [Content architecture](docs/architecture/third-party/drupal/content-architecture.md)
-      * [Layout architecture](docs/architecture/third-party/drupal/layout-architecture.md)  
-      * [Configuration management](docs/architecture/third-party/drupal/configuration-management.md)
-      * [Writing tests](docs/architecture/third-party/drupal/testing.md)
-      * [Module selection](docs/architecture/third-party/drupal/selecting-contributed-modules.md)
-      * [Experimental modules policy](docs/architecture/third-party/drupal/experimental-module-policy.md)
-      * [Module update policy](docs/architecture/third-party/drupal/module-update-policy.md)
-* Development
+  * [Solution definition](docs/starting/solution-definition.md)
+  * [Repositories scaffolding](docs/starting/repository-scaffolding.md)
+* Development guidelines
+  * [Content architecture](docs/development/content-architecture.md)
+  * [Configuration management](docs/development/configuration-management.md)
+  * [Writing tests](docs/development/testing.md)
+  * [Module update policy](docs/development/module-update-policy.md)
+  * [Tooling](docs/development/tooling.md)
+  * [Dependency management](docs/development/dependency-management-and-patching.md)
   * [Development Workflow](docs/development/development-workflow.md)
   * [Coding standards](docs/development/coding-standards.md)
-  * [Frontend development](docs/development/frontend/index.md)
-  * Third party development
-    * [Drupal](docs/development/third-party/drupal/index.md)
+  * [Frontend development](docs/development/frontend/index.md) 
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
+  * [Code reviews](docs/development/code-reviews.md)
   * [Release workflow](docs/development/release-workflow.md)
-  * Templates
+* Templates
     * [Issue template](docs/templates/issue-template.md)
     * [Pull request template](docs/templates/pull-request-template.md)
+* Development guides
+    * [Drupal](docs/development/third-party/drupal/index.md)
 * [Automated testing](docs/automated-testing.md)
 
 [1]: https://ec.europa.eu/info/departments/informatics
