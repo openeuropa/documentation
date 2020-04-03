@@ -17,20 +17,21 @@ When implementing corporate content types stick to the following guidelines:
 
 #### oe_content submodule
 A corporate content submodule should only have basic configuration and logic and basic data related dependencies:
-bundle definition;
-content type specific field storages and field instances;
-view modes.
+- bundle definition;
+- content type specific field storages and field instances;
+- view modes.
 
-Configuration shipped as content submodules is intended as initial configuration: after being installed and imported the content type belongs to the site
-The submodule will not update existing configuration after install
+Configuration shipped as content submodules is intended as initial configuration:
+- After being installed and imported the content type belongs to the site.
+- The submodule will not update existing configuration after install.
 
-Content should be made translatable providing the related language configuration in the config/optional folder
+Content should be made translatable providing the related language configuration in the config/optional folder.
 
 The following points should be followed on content types development:
-- Check if existing fields could be reused before implementing a new one
-- Prefix corporate fields only with oe_ so to reduce the risk of naming conflict
-- Base fields are common to all bundles and should already be present in all content types, no need to implement in new ones
-- Prefer API validation, do not rely on Form API validation
+- Check if existing fields could be reused before implementing a new one.
+- Prefix corporate fields only with oe_ so to reduce the risk of naming conflict.
+- Base fields are common to all bundles and should already be present in all content types, no need to implement in new ones.
+- Prefer API validation, do not rely on Form API validation.
 - Publication Office (PO) vocabularies are the only allowed taxonomies.
 - If not yet imported, it can be added in the triple-store.
 - Select the appropriated field types: 
@@ -41,8 +42,8 @@ The following points should be followed on content types development:
 Any custom field type, entity validation, entity wrappers, etc. should be covered by PHPUnit tests.
 
 The business requirements should be covered in a Behat test:
-available fields and their configuration (required, max length, etc.)
-referenceable content entities.
+- available fields and their configuration (required, max length, etc.).
+- referenceable content entities.
 
 #### oe_theme submodule
 All theming logic for the content type should be created in the appropriated oe_theme submodule.
@@ -50,9 +51,9 @@ All theming logic for the content type should be created in the appropriated oe_
 A theming submodule provides:
 - view mode display overrides in the config/overrides folder.
 - display overrides will be installed once and replace any existing configuration.
-- PageHeaderMetadata plugin if needed
-- templates specific to this content type rendering
-any other configuration that is needed for this content type, properly namespaced (dates, image styles)
+- `PageHeaderMetadata` plugin if needed.
+- templates specific to this content type rendering.
+- any other configuration that is needed for this content type, properly namespaced (dates, image styles).
 
 Test coverage should cover:
 - any business related functionality on the frontend level, e.g.:

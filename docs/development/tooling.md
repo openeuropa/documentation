@@ -41,7 +41,7 @@ OpenEuropa does not impose a development environment as long as the following so
 
 [PHP](http://php.net/manual/en/install.php) is required by various tools, including Composer, Drush, Robo, and Drupal itself. Please ensure that:
 
-* OpenEuropa components require usage of PHP 7.1+. You can check your existing version by executing `php -v`.
+* OpenEuropa components require usage of PHP 7.2+. You can check your existing version by executing `php -v`.
 
 #### Composer
 
