@@ -17,7 +17,7 @@ or might be rejected at the sole discretion of the OpenEuropa team representativ
 
 ## OpenEuropa contribution rules
 
-Contributions are governed by [OpenEuropa contribution guidelines](../initiative/how-to-contribute).
+Contributions are governed by [OpenEuropa contribution guidelines](../initiative/how-to-contribute.md).
 
 ## Lifecycle of proposed issues
 
