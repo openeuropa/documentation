@@ -2,7 +2,7 @@
 
 This document contains information specific to testing Drupal based components.
 More general information about our testing policy can be found in the
-[Automated testing](../../../../docs/automated-testing.md) section.
+[Automated testing](../development/automated-testing.md) section.
 
 ## Choosing the right test framework
 
