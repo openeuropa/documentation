@@ -12,7 +12,7 @@ OpenEuropa components release plan don't follow a fixed overall timeline and can
 
 ## Release preparation and testing
 
-When a new Drupal core minor version is released, OpenEuropa team commits to have a release of all its supported components compatible with it in a fixed time frame (two sprints).
+The OpenEuropa team commits to have its components aligned with the API of the supported Drupal versions.
 
 It is predicted that the majority of changes will come in the form of MINOR and PATCH releases. However, if there is a need to change API provided by the component in a way that it is not backwards compatible a new MAJOR release can be produced. 
 
