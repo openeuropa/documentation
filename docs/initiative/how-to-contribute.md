@@ -23,7 +23,7 @@ By participating, you are expected to uphold this code. Please report unacceptab
 
 ## Before getting started
 
-OpenEuropa is an open source project made up of several different components. Before you report anything please make
+OpenEuropa is an open source project made up of several components. Before you report anything please make
 sure you are using the correct repository for the component you are referring to.
 
 A comprehensive list of components built and maintained by the OpenEuropa team is available [here](../openeuropa-components.md).
