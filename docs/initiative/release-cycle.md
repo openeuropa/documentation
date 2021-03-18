@@ -31,5 +31,36 @@ As Drupal core minor releases happen every 6 months, website and application own
 
 Our Backward Compatibility Promise allows developers to upgrade with confidence from one minor version to the next one. Whenever keeping backward compatibility is not possible, the feature, the enhancement or the bug fix will be scheduled for the next major version.
 
+## Deprecation policy
+
+New minor versions can introduce new APIs and new features. When a new API replaces an old one, the later cannot be
+removed because it would break the backwards compatibility pledge. Instead, the old API will be deprecated in favor of
+the new one.
+
+### How to deprecate
+
+A deprecation consists of two parts:
+
+* A `@deprecated` PHPDoc tag that indicates when the code was deprecated, when it will be removed, and what to use
+  instead. An optional `@see` link to a relevant issue, explaining the API change.
+* A `@trigger_error('...', E_USER_DEPRECATED)` at runtime to notify developers that deprecated code is being used. The
+  `@` suppression should be used in most cases so that we can customize the error handling and avoid flooding logs on
+  production. In some cases, we will omit the `@` if it is important to notify developers of a behavior or BC break
+  (e.g. for a critical issue).
+
+Additionally, developers and QA may consider adding a third part: A unit test proving the deprecation notice will be
+triggered when the deprecated code is called. Use a `@group` legacy annotation in conjunction with calls to
+`$this->expectDeprecation()`.
+
+Note that Drupal deprecation message template is very coupled to Drupal core and contrib use-cases and it doesn't fit
+the OpenEuropa components case, but it's important that the message contain all the elements described above.
+
+### What to deprecate
+
+OpenEuropa is following the Drupal's Deprecation Policy regarding what is
+subject to deprecation: https://www.drupal.org/about/core/policies/core-change-policies/drupal-core-deprecation-policy#what
+
 ## References
-https://www.drupal.org/core/release-cycle-overview
+
+* [Drupal core release cycle: major, minor, and patch releases](https://www.drupal.org/core/release-cycle-overview)
+* [Drupal core deprecation policy](https://www.drupal.org/about/core/policies/core-change-policies/drupal-core-deprecation-policy)
