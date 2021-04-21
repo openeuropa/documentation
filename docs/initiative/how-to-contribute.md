@@ -19,11 +19,11 @@ Use your best judgment, and feel free to propose changes to this document in a p
 ## Code of conduct
 
 This project and everyone participating in it is governed by the [OpenEuropa Code of Conduct](code-of-conduct.md).
-By participating, you are expected to uphold this code.  Please report unacceptable behaviour to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
+By participating, you are expected to uphold this code. Please report unacceptable behaviour to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
 
 ## Before getting started
 
-OpenEuropa is an open source project made up of several different components. Before you report anything please make
+OpenEuropa is an open source project made up of several components. Before you report anything please make
 sure you are using the correct repository for the component you are referring to.
 
 A comprehensive list of components built and maintained by the OpenEuropa team is available [here](../openeuropa-components.md).
@@ -123,13 +123,13 @@ and provide the following information:
 ### Git commit messages
 
 * If the commit refers to an issue or a ticket, start the comment with the issue or ticket number,
-  then add a colon and a space ("#1234: " or "OPENEUROPA-1234: ").
+  then add a colon and a space (e.g. "OPENEUROPA-1234: ").
 * Prefer the present tense ("Add feature" not "Added feature").
 * Prefer the imperative mood ("Move element to..." not "Moves element to...").
 * Limit the first line to 72 characters or less.
 * Do not end the first line with a period.
 
-Example of commit message: "#1234: Implement automatic feature generator".
+Example of commit message: "OPENEUROPA-1234: Implement automatic feature generator".
 
 ### Code styling
 

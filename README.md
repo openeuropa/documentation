@@ -43,7 +43,7 @@ For more information please check:
     * [Pull request template](docs/templates/pull-request-template.md)
 * Development guides
     * [Drupal](docs/development/third-party/drupal/index.md)
-* [Automated testing](docs/automated-testing.md)
+* [Automated testing](docs/development/automated-testing.md)
 
 For support requests when using the components please use: 
 [DIGIT-OPENEUROPA-SUPPORT@ec.europa.eu](mailto:DIGIT-OPENEUROPA-SUPPORT@ec.europa.eu)
