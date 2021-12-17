@@ -19,9 +19,7 @@ For more information please check:
   * [Release cycle](docs/initiative/release-cycle.md)
   * [How to contribute](docs/initiative/how-to-contribute.md)
   * [Contribution workflow](docs/initiative/contribution-workflow.md)
-* OpenEuropa Components
-  * [OpenEuropa components](docs/openeuropa-components.md)  
-  * [OpenEuropa maintainers](docs/maintainers.md)  
+  * [Components](docs/openeuropa-components.md)
 * Before you start
   * [Solution definition](docs/starting/solution-definition.md)
   * [Repositories scaffolding](docs/starting/repository-scaffolding.md)
