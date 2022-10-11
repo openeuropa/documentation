@@ -19,7 +19,7 @@ Use your best judgment, and feel free to propose changes to this document in a p
 ## Code of conduct
 
 This project and everyone participating in it is governed by the [OpenEuropa Code of Conduct](code-of-conduct.md).
-By participating, you are expected to uphold this code. Please report unacceptable behaviour to [digit-nexteuropa-core-team@ec.europa.eu](mailto:digit-nexteuropa-core-team@ec.europa.eu).
+By participating, you are expected to uphold this code. Please report unacceptable behaviour to [EC-EUROPA-IT-PLATFORM@ec.europa.eu](mailto:EC-EUROPA-IT-PLATFORM@ec.europa.eu).
 
 ## Before getting started
 
