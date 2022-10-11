@@ -43,9 +43,6 @@ For more information please check:
     * [Drupal](docs/development/third-party/drupal/index.md)
 * [Automated testing](docs/development/automated-testing.md)
 
-For support requests when using the components please use: 
-[DIGIT-OPENEUROPA-SUPPORT@ec.europa.eu](mailto:DIGIT-OPENEUROPA-SUPPORT@ec.europa.eu)
-
 [1]: https://ec.europa.eu/info/departments/informatics
 [2]: https://opensource.org
 [3]: https://joinup.ec.europa.eu/page/eupl-text-11-12
