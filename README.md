@@ -32,7 +32,6 @@ For more information please check:
   * [Dependency management](docs/development/dependency-management-and-patching.md)
   * [Development Workflow](docs/development/development-workflow.md)
   * [Coding standards](docs/development/coding-standards.md)
-  * [Frontend development](docs/development/frontend/index.md) 
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
   * [Code reviews](docs/development/code-reviews.md)
   * [Release workflow](docs/development/release-workflow.md)
