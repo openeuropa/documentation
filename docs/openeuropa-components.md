@@ -3,7 +3,7 @@
 Below the list of loosely coupled, reusable PHP projects provided by the OpenEuropa Initiative.
 Each project complies with [PHP-FIG][1] standards and adhere to the best-practices put forward by [PHP The "Right" Way][2].
 
-All code is distributed on [Packagist][3] and released under the [EUPL-1.2 license][4].
+Most code is distributed on [Packagist][3] and released under the [EUPL-1.2 license][4].
 
 All projects use Semantic Versioning. Attention is drawn to [item 4 of the Semantic Version specification](https://semver.org/#spec-item-4)
 'Major version zero (0.y.z) is for initial development. Anything may change at any time. The public API should not be considered stable.'
@@ -68,7 +68,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_editorial"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_editorial.svg"/></a>
         </td> 
         </tr>
-            <tr>
+    <tr>
             <td>
                 <a title="Repository" href="https://github.com/openeuropa/oe_link_lists"><b>OpenEuropa Link Lists</b></a><br/>
                 This component provides site building features that allow the creation of lists of links, external and to internal content, dyanamic and manual.
@@ -79,7 +79,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
                 <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_link_lists"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_link_lists.svg"/></a>
             </td> 
         </tr>
-        <tr>
+    <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_media"><b>OpenEuropa Media</b></a><br/>
             This component provides functionality for using Media of various types. Things like images, remote videos and integration with the EC AV Portal service are included.
@@ -150,25 +150,153 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_theme.svg"/></a>
         </td></tr>
     <tr>
-        <tr>
-            <td>
-                <a title="Repository" href="https://github.com/openeuropa/oe_translation"><b>OpenEuropa Translation</b></a><br/>
-                This component provides translation capabilities for multilingual sites and integrations with various external translation services such as DGT Poetry.
-            </td>
-            <td>
-                <a title="Version" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/v/openeuropa/oe_translation.svg"/></a>
-                <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_translation"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_translation/status.svg"/></a>
-                <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_translation.svg"/></a>
-            </td></tr>
-        <tr>
         <td>
-            <a title="Repository" href="https://github.com/openeuropa/oe_webtools"><b>OpenEuropa Webtools</b></a><br/>
-            This component provides integration with the EC Webtools service for various widgets and functionalities such as analytics, LACO, cookie consent, etc. 
+            <a title="Repository" href="https://github.com/openeuropa/oe_translation"><b>OpenEuropa Translation</b></a><br/>
+            This component provides translation capabilities for multilingual sites and integrations with various external translation services such as DGT Poetry.
+        </td>
+        <td>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/v/openeuropa/oe_translation.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_translation"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_translation/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_translation"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_translation.svg"/></a>
+        </td></tr>
+    <tr>
+    <td>
+        <a title="Repository" href="https://github.com/openeuropa/oe_webtools"><b>OpenEuropa Webtools</b></a><br/>
+        This component provides integration with the EC Webtools service for various widgets and functionalities such as analytics, LACO, cookie consent, etc. 
+    </td>
+    <td width="250">
+        <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools.svg"/></a>
+        <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_webtools"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools/status.svg"/></a>
+        <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_webtools.svg"/></a>
+    </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_time_caching"><b>OpenEuropa Time Caching</b></a><br/>
+            The OpenEuropa Time Caching provides a cache tag service to generate and invalidate cache tags that deal with time.
         </td>
         <td width="250">
-            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/v/openeuropa/oe_webtools.svg"/></a>
-            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_webtools"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_webtools/status.svg"/></a>
-            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_webtools"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_webtools.svg"/></a>
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_time_caching"><img src="https://img.shields.io/packagist/v/openeuropa/oe_time_caching.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_time_caching"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_time_caching/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_time_caching"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_time_caching.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_oembed"><b>OpenEuropa oEmbed</b></a><br/>
+            The OpenEuropa oEmbed module allows the embedding of entities into content in an agnostic (non-Drupal) way.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_oembed"><img src="https://img.shields.io/packagist/v/openeuropa/oe_oembed.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_oembed"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_oembed/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_oembed"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_oembed.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/open_vocabularies"><b>Open Vocabularies</b></a><br/>
+            The Open Vocabularies module allows users to choose how a piece of content will be categorised without having to change the related content type field definition.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/open_vocabularies"><img src="https://img.shields.io/packagist/v/openeuropa/open_vocabularies.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/open_vocabularies"><img src="https://drone.fpfis.eu/api/badges/openeuropa/open_vocabularies/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/open_vocabularies"><img src="https://img.shields.io/packagist/dt/openeuropa/open_vocabularies.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_corporate_site_info"><b>OpenEuropa Corporate Site Information</b></a><br/>
+            The OpenEuropa Corporate Site Information module provides corporate information about the site, such as site owner, content owners, etc.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_corporate_site_info"><img src="https://img.shields.io/packagist/v/openeuropa/oe_corporate_site_info.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_corporate_site_info"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_corporate_site_info/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_corporate_site_info"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_corporate_site_info.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_newsroom"><b>OpenEuropa Newsroom</b></a><br/>
+            The OpenEuropa oe_newsroom provides integration with the Newsroom service.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_newsroom"><img src="https://img.shields.io/packagist/v/openeuropa/oe_newsroom.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_newsroom"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_newsroom/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_newsroom"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_newsroom.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_graphql"><b>OpenEuropa GraphQL</b></a><br/>
+            GraphQL integration module for OpenEuropa components, based on the <a href="https://www.drupal.org/project/graphql_core_schema">GraphQL Core Schema</a> module.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_graphql"><img src="https://img.shields.io/packagist/v/openeuropa/oe_graphql.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_graphql"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_graphql/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_graphql"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_graphql.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_agenda"><b>OpenEuropa Agenda</b></a><br/>
+            Drupal module that exposes an agenda. The module defines the Agenda, Day, and Session sub-entity types and their default bundles.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_agenda"><img src="https://img.shields.io/packagist/v/openeuropa/oe_agenda.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_agenda"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_agenda/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_agenda"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_agenda.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_starter_content"><b>OpenEuropa Starter Content</b></a><br/>
+            The OpenEuropa Starter Content provides a series of content types to quickstart a project.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_starter_content"><img src="https://img.shields.io/packagist/v/openeuropa/oe_starter_content.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_starter_content"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_starter_content/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_starter_content"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_starter_content.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_content_extra"><b>OpenEuropa Content Extra</b></a><br/>
+            Enhances the basic <a href="https://github.com/openeuropa/oe_content">OpenEuropa Content</a> module with additional fields and entity types.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_content_extra"><img src="https://img.shields.io/packagist/v/openeuropa/oe_content_extra.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_content_extra"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_content_extra/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_content_extra"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_content_extra.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_subscriptions"><b>OpenEuropa Subscriptions</b></a><br/>
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_subscriptions"><img src="https://img.shields.io/packagist/v/openeuropa/oe_subscriptions.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_subscriptions"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_subscriptions/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_subscriptions"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_subscriptions.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_bootstrap_theme"><b>OpenEuropa Bootstrap base theme</b></a><br/>
+            Drupal theme based on Bootstrap 5, UI Patterns and the <a href="https://github.com/openeuropa/bootstrap-component-library">OpenEuropa Bootstrap Component Library</a>.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_bootstrap_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_bootstrap_theme.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_bootstrap_theme"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_bootstrap_theme/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_bootstrap_theme"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_bootstrap_theme.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_whitelabel"><b>OpenEuropa Whitelabel theme</b></a><br/>
+            Sub-theme of <a href="https://packagist.org/packages/openeuropa/oe_bootstrap_theme">OpenEuropa Bootstrap base theme</a>, with theming for OpenEuropa library features.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_whitelabel"><img src="https://img.shields.io/packagist/v/openeuropa/oe_whitelabel.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_whitelabel"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_whitelabel/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_whitelabel"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_whitelabel.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_showcase"><b>OpenEuropa Showcase</b></a><br/>
+            Installation profile to demo openeuropa library features.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_showcase"><img src="https://img.shields.io/packagist/v/openeuropa/oe_showcase.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_showcase"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_showcase/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_showcase"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_showcase.svg"/></a>
         </td></tr>
 </table>
 
@@ -198,6 +326,26 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Version" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/v/openeuropa/code-review.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/code-review"><img src="https://drone.fpfis.eu/api/badges/openeuropa/code-review/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/code-review"><img src="https://img.shields.io/packagist/dt/openeuropa/code-review.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/code-review-drupal"><b>Code Review Drupal</b></a><br/>
+            Extends the Code Review with Drupal based rules.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/code-review-drupal"><img src="https://img.shields.io/packagist/v/openeuropa/code-review-drupal.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/code-review-drupal"><img src="https://drone.fpfis.eu/api/badges/openeuropa/code-review-drupal/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/code-review-drupal"><img src="https://img.shields.io/packagist/dt/openeuropa/code-review-drupal.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/code-review-library"><b>Code Review Library</b></a><br/>
+            Coding standard dependencies for PHP libraries.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/code-review-library"><img src="https://img.shields.io/packagist/v/openeuropa/code-review-library.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/code-review-library"><img src="https://drone.fpfis.eu/api/badges/openeuropa/code-review-library/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/code-review-library"><img src="https://img.shields.io/packagist/dt/openeuropa/code-review-library.svg"/></a>
         </td></tr>
     <tr>
         <td>
@@ -248,6 +396,66 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Version" href="https://packagist.org/packages/openeuropa/webtools-geocoding-provider"><img src="https://img.shields.io/packagist/v/openeuropa/webtools-geocoding-provider.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/webtools-geocoding-provider"><img src="https://drone.fpfis.eu/api/badges/openeuropa/webtools-geocoding-provider/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/webtools-geocoding-provider"><img src="https://img.shields.io/packagist/dt/openeuropa/webtools-geocoding-provider.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/europa-search-client"><b>Europa Search Client</b></a><br/>
+            Europa Search Client is a library offering a PHP API to consume Europa Search services.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/v/openeuropa/europa-search-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/europa-search-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/europa-search-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/europa-search-client"><img src="https://img.shields.io/packagist/dt/openeuropa/europa-search-client.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/triple-store-dev"><b>Content layer development triple store</b></a><br/>
+            Triple storage containing default data to kick-start content layer local development based on <a href="https://virtuoso.openlinksw.com">OpenLink Virtuoso</a>.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/triple-store-dev"><img src="https://img.shields.io/packagist/v/openeuropa/triple-store-dev.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/triple-store-dev"><img src="https://drone.fpfis.eu/api/badges/openeuropa/triple-store-dev/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/triple-store-dev"><img src="https://img.shields.io/packagist/dt/openeuropa/triple-store-dev.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/epoetry-client"><b>ePoetry PHP client</b></a><br/>
+            PHP client for the ePoetry service.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/epoetry-client"><img src="https://img.shields.io/packagist/v/openeuropa/epoetry-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/epoetry-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/epoetry-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/epoetry-client"><img src="https://img.shields.io/packagist/dt/openeuropa/epoetry-client.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/epoetry-client"><b>ePoetry PHP client</b></a><br/>
+            PHP client for the ePoetry service.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/epoetry-client"><img src="https://img.shields.io/packagist/v/openeuropa/epoetry-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/epoetry-client"><img src="https://drone.fpfis.eu/api/badges/openeuropa/epoetry-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/epoetry-client"><img src="https://img.shields.io/packagist/dt/openeuropa/epoetry-client.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/task-runner-drupal-project-symlink"><b>OpenEuropa Task Runner: Drupal project symlink</b></a><br/>
+            The Drupal project symlink <a href="https://github.com/openeuropa/task-runner">"Task Runner</a> command aims at simplifying Drupal development, when using a Composer-based workflow.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/task-runner-drupal-project-symlink"><img src="https://img.shields.io/packagist/v/openeuropa/task-runner-drupal-project-symlink.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/task-runner-drupal-project-symlink"><img src="https://drone.fpfis.eu/api/badges/openeuropa/task-runner-drupal-project-symlink/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/task-runner-drupal-project-symlink"><img src="https://img.shields.io/packagist/dt/openeuropa/task-runner-drupal-project-symlink.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/cdt-client"><b>OpenEuropa CDT Client</b></a><br/>
+            CDT Client is a library offering a PHP API to consume Translation Centre For the Bodies of the EU services.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/cdt-client"><img src="https://img.shields.io/packagist/v/openeuropa/cdt-client.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/task-runner-drupal-project-symlink"><img src="https://drone.fpfis.eu/api/badges/openeuropa/cdt-client/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/cdt-client"><img src="https://img.shields.io/packagist/dt/openeuropa/cdt-client.svg"/></a>
         </td></tr>
 </table>
 
