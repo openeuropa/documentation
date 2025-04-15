@@ -71,7 +71,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
             <td>
                 <a title="Repository" href="https://github.com/openeuropa/oe_link_lists"><b>OpenEuropa Link Lists</b></a><br/>
-                This component provides site building features that allow the creation of lists of links, external and to internal content, dyanamic and manual.
+                This component provides site building features that allow the creation of lists of links, external and to internal content, dynamic and manual.
             </td>
             <td width="250">
                 <a title="Version" href="https://packagist.org/packages/openeuropa/oe_link_lists"><img src="https://img.shields.io/packagist/v/openeuropa/oe_link_lists.svg"/></a>
@@ -142,7 +142,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_theme"><b>OpenEuropa Theme</b></a><br/>
-            Drupal 8 theme based on the Europa Component Library.
+            Drupal 10 theme based on the <a title="ECL" href="https://github.com/ec-europa/europa-component-library">Europa Component Library (ECL)</a>.
         </td>
         <td>
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_theme"><img src="https://img.shields.io/packagist/v/openeuropa/oe_theme.svg"/></a>
@@ -262,6 +262,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_subscriptions"><b>OpenEuropa Subscriptions</b></a><br/>
+            The Open Europa Subscriptions module provides a system for users and anonymous to subscribe to content and receive notifications using message stack and Symfony Mailer.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_subscriptions"><img src="https://img.shields.io/packagist/v/openeuropa/oe_subscriptions.svg"/></a>
@@ -297,6 +298,46 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_showcase"><img src="https://img.shields.io/packagist/v/openeuropa/oe_showcase.svg"/></a>
             <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_showcase"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_showcase/status.svg"/></a>
             <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_showcase"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_showcase.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_list_pages"><b>OpenEuropa List Pages</b></a><br/>
+            The OpenEuropa List Pages component allows creation and management of list pages with configurable options.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_list_pages"><img src="https://img.shields.io/packagist/v/openeuropa/oe_list_pages.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_list_pages"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_list_pages/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_list_pages"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_list_pages.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_corporate_countries"><b>OpenEuropa Corporate countries</b></a><br/>
+            This module provides integration of EC Corporate countries with Drupal.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_corporate_countries"><img src="https://img.shields.io/packagist/v/openeuropa/oe_corporate_countries.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_corporate_countries"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_corporate_countries/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_corporate_countries"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_corporate_countries.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_contact_forms"><b>OpenEuropa Contact Forms</b></a><br/>
+            This is a Drupal module that is an extension to drupal core contact forms and defines the European Commission corporate forms.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_contact_forms"><img src="https://img.shields.io/packagist/v/openeuropa/oe_contact_forms.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_contact_forms"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_contact_forms/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_contact_forms"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_contact_forms.svg"/></a>
+        </td></tr>
+    <tr>
+        <td>
+            <a title="Repository" href="https://github.com/openeuropa/oe_dashboard_agent"><b>OpenEuropa Dashboard Agent</b></a><br/>
+            Drupal module that integrates with the central Dashboard.
+        </td>
+        <td width="250">
+            <a title="Version" href="https://packagist.org/packages/openeuropa/oe_dashboard_agent"><img src="https://img.shields.io/packagist/v/openeuropa/oe_dashboard_agent.svg"/></a>
+            <a title="Build" href="https://drone.fpfis.eu/openeuropa/oe_dashboard_agent"><img src="https://drone.fpfis.eu/api/badges/openeuropa/oe_dashboard_agent/status.svg"/></a>
+            <a title="Downloads" href="https://packagist.org/packages/openeuropa/oe_dashboard_agent"><img src="https://img.shields.io/packagist/dt/openeuropa/oe_dashboard_agent.svg"/></a>
         </td></tr>
 </table>
 
