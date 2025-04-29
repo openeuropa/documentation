@@ -262,7 +262,7 @@ All projects use Semantic Versioning. Attention is drawn to [item 4 of the Seman
     <tr>
         <td>
             <a title="Repository" href="https://github.com/openeuropa/oe_subscriptions"><b>OpenEuropa Subscriptions</b></a><br/>
-            The Open Europa Subscriptions module provides a system for users and anonymous to subscribe to content and receive notifications using message stack and Symfony Mailer.
+            The OpenEuropa Subscriptions module provides a system that allows both registered users and anonymous visitors to subscribe to content and receive notifications using the Message stack and Symfony Mailer.
         </td>
         <td width="250">
             <a title="Version" href="https://packagist.org/packages/openeuropa/oe_subscriptions"><img src="https://img.shields.io/packagist/v/openeuropa/oe_subscriptions.svg"/></a>
