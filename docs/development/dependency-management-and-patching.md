@@ -4,8 +4,8 @@ OpenEuropa components often depend on external libraries or Drupal modules. Thes
 is not locked using a `composer.lock` file. This means that every time the component is installed for development purposes, it will use the latest version
 of its dependencies.
 
-In order to ensure that components works with a wide range of dependency versions, the Drone-based continuous integration pipelines install and test them using 
-both the lowest and highest version of the dependencies allowed in the `composer.json` file. You can see how this is set up in the [Drupal module template repository](https://github.com/openeuropa/drupal-module-template/blob/master/.drone.yml).
+In order to ensure that components work with every supported Drupal core version, the [continuous integration pipelines](ci-deployment-workflow.md) install and test them against each
+Drupal core version in the test matrix.
 
 Components made for Drupal modules can and very often do include submodules that may have their own dependencies which are not necessarily needed by the parent component as a whole or the other submodules.
 In such cases, the dependencies are not declared in the `composer.json` of the main component but are mentioned in the submodule's README file. They are however included in the list of Composer development dependencies

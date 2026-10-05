@@ -1,10 +1,10 @@
-## OPENEUROPA-[Insert ticket number here]
+## OEL-[Insert ticket number here]
 
 ### Description
 
 [Insert description here]
 
-### Changelog
+### Change log
 
 - Added:
 - Changed:
@@ -12,3 +12,10 @@
 - Removed:
 - Fixed:
 - Security:
+
+### Commands
+
+```sh
+[Insert commands here]
+
+```

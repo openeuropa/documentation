@@ -1,7 +1,12 @@
 # Repository scaffolding
 
-Repositories follow a certain structure that allows for a fast and easy development setup.
+Repositories follow a common structure that allows for a fast and easy development setup.
 
-Creating new Drupal module repositories can be done by using the [OpenEuropa module template](https://github.com/openeuropa/drupal-module-template).
+There is no maintained repository template. When creating a new component, start from the setup files of an existing, actively maintained component such as [OpenEuropa Content](https://github.com/openeuropa/oe_content):
 
-In addition, the OpenEuropa project also provides a [site template](https://github.com/openeuropa/drupal-site-template) that can be used to quickly set up a site using a lightweight profile and the more common components already included.
+- `composer.json`;
+- `docker-compose.yml` for the [development environment](../development/tooling.md#docker);
+- `runner.yml.dist` for the [Task Runner](https://github.com/openeuropa/task-runner);
+- `grumphp.yml.dist` for the [coding standards](../development/coding-standards.md) checks;
+- `phpunit.xml.dist` for the [tests](../development/testing.md);
+- `.github/workflows/ci.yml` for the [CI pipeline](../development/ci-deployment-workflow.md).

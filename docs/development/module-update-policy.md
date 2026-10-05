@@ -1,6 +1,6 @@
 # Module update policy
 
-Drupal modules are updated using the [update API for Drupal 8][1] by implementing the following hooks:
+Drupal modules are updated using the [Update API][1] by implementing the following hooks:
 
 - [`hook_update_N`][2]
 - [`hook_post_update_NAME`][3]
@@ -24,6 +24,6 @@ function MY_MODULE_post_update_00002() { ... }
 
 We suggest not to append anything after the sequence number as doing so will eliminate the risk of having hooks with the same number. Instead, we suggest to add a meaningful comment on top of each hook, that will be displayed when running `drush updb`.
 
-[1]: https://www.drupal.org/docs/8/api/update-api/introduction-to-update-api-for-drupal-8
+[1]: https://www.drupal.org/docs/drupal-apis/update-api
 [2]: https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Extension!module.api.php/function/hook_update_N
 [3]: https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Extension!module.api.php/function/hook_post_update_NAME

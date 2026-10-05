@@ -5,7 +5,7 @@ In order for all contributions and components to look and feel familiar,
 OpenEuropa has agreed on a set of coding standards that all contributors must follow.
 
 Although OpenEuropa does not define any coding standard as such, all the standards it follows
-are usually based on well known standards such as [PSR-1][1] and [PSR-2][2].
+are usually based on well known standards such as [PSR-1][1] and [PSR-12][2].
 
 The following are a list of coding standards guidelines, 
 defined using [IETF RFC 2119][3] conformance keywords.
@@ -13,12 +13,15 @@ defined using [IETF RFC 2119][3] conformance keywords.
 ## How to make your code follow the Coding Standards
 
 In order to make it easier for contributors to create new components or to modify existing ones
-the [Code Review][4] component has been created.
+the OpenEuropa Code Review components have been created:
 
-Coding standards MUST be validated using the OpenEuropa Code Review component
+- [Code Review Drupal][4] for Drupal components;
+- [Code Review Library][5] for PHP libraries.
+
+Coding standards MUST be validated using the appropriate OpenEuropa Code Review component
 across all different OpenEuropa components.
 
-Please refer to the Code Review [documentation][5] for more information on its usage.
+Please refer to the documentation of each component for more information on its usage.
 
 ## Coding Standards for Drupal Components
 
@@ -30,7 +33,7 @@ Drupal themes are based on the Europa Component Library and should follow the [E
 
 ## Coding Standards for PHP based components
 
-All PHP based components that are not part of the Drupal ecosystem MUST adhere to the [PSR-2][2] standards.
+All PHP based components that are not part of the Drupal ecosystem MUST adhere to the [PSR-12][2] standards.
 This applies to any library or component that is mainly developed in PHP.
 
 ## Additional rules
@@ -42,10 +45,10 @@ type declaration][9] statement at the top.
 
 
 [1]: https://www.php-fig.org/psr/psr-1/
-[2]: https://www.php-fig.org/psr/psr-2/
+[2]: https://www.php-fig.org/psr/psr-12/
 [3]: https://www.ietf.org/rfc/rfc2119.txt
-[4]: https://github.com/openeuropa/code-review
-[5]: https://github.com/openeuropa/code-review/blob/master/README.md
+[4]: https://github.com/openeuropa/code-review-drupal
+[5]: https://github.com/openeuropa/code-review-library
 [6]: https://www.drupal.org/docs/develop/standards
 [7]: https://ec-europa.github.io/europa-component-library/ec/docs/conventions/component
 [8]: https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration
