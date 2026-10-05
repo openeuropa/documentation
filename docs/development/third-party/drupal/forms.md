@@ -9,7 +9,7 @@ Form classes need to implement `\Drupal\Core\Form\FormInterface` but typically e
 * A form has an ID -> the `getFormId()` method
 * A form is defined as a multitude of form elements (render array) -> the `buildForm(array $form, FormStateInterface $form_state)` method
 * A form can be validated before it is submitted -> the `validateForm(array &$form, FormStateInterface $form_state)` method
-* A form is submitted -> the `submitForm(array &$form, FormStateInterface $form_state)` method
+* A form is submitted using the `submitForm(array &$form, FormStateInterface $form_state)` method.
 
 The *form state* is a `Drupal\Core\Form\FormStateInterface` object.
 
