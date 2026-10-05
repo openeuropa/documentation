@@ -49,8 +49,9 @@ A deprecation consists of two parts:
   (e.g. for a critical issue).
 
 Additionally, developers and QA may consider adding a third part: A unit test proving the deprecation notice will be
-triggered when the deprecated code is called. Use a `@group` legacy annotation in conjunction with calls to
-`$this->expectDeprecation()`.
+triggered when the deprecated code is called. With PHPUnit 9, use the `@group legacy` annotation in conjunction with
+calls to `$this->expectDeprecation()`. With PHPUnit 11, use the `#[IgnoreDeprecations]` attribute in conjunction with
+calls to `$this->expectUserDeprecationMessage()`.
 
 Note that Drupal deprecation message template is very coupled to Drupal core and contrib use-cases and it doesn't fit
 the OpenEuropa components case, but it's important that the message contain all the elements described above.

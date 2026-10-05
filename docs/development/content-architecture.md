@@ -4,7 +4,7 @@ The OpenEuropa project does not enforce a strict content architecture but provid
 
 ## Content types
 
-The [OpenEuropa Content](https://github.com/openeuropa/oe_content) component provides a growing number of corporate content types intended to harmonize the content architecture across the sites of the European Commission. Moreover, it provides RDF-based support for the corporate vocabularies published by the [European Publication Office (OP)](https://publications.europa.eu/en/home).
+The [OpenEuropa Content](https://github.com/openeuropa/oe_content) component provides a growing number of corporate content types intended to harmonize the content architecture across the sites of the European Commission. Moreover, it provides RDF-based support for the corporate vocabularies published by the [Publications Office of the European Union (OP)](https://op.europa.eu/en/home).
 
 Corporate content types result from content governance work at DG COMM and they should be approved by it, before any implementation work can start.
 
@@ -41,7 +41,7 @@ The following points should be followed on content types development:
 
 Any custom field type, entity validation, entity wrappers, etc. should be covered by PHPUnit tests.
 
-The business requirements should be covered in a Behat test:
+The business requirements should be covered in a functional test:
 - available fields and their configuration (required, max length, etc.).
 - referenceable content entities.
 
@@ -62,7 +62,7 @@ Test coverage should cover:
 - access checks.
 - caching.
 
-Tests should be executed as anonymous user, using the existing entity creation and update steps to ensure cache invalidation, and with the correct user to ensure access checks.
+Tests should be executed as anonymous user, creating and updating entities through the API to ensure cache invalidation, and with the correct user to ensure access checks.
 
 ## Page building
 

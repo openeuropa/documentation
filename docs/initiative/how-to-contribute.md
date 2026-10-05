@@ -44,13 +44,13 @@ and use [the required template](../templates/issue-template.md), this will allow
 * Determine [which repository the problem should be reported in](#before-getting-started).
 * Make sure the issue is really a bug and not an intended behaviour by reading the component's documentation.
 * Check if you can reproduce the problem in the latest version of the related component.
-* Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the problem has
+* Perform a [cursory search](https://github.com/search?q=org%3Aopeneuropa+is%3Aissue&type=issues) to see if the problem has
   already been reported. If it has and the issue is still open, please add a comment to the existing issue instead of
   opening a new one.
 
 #### How do I submit a (good) bug report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues). After you've determined [which repository](#before-getting-started)
+Bugs are tracked as [GitHub issues](https://docs.github.com/en/issues). After you've determined [which repository](#before-getting-started)
 your bug is related to, create an issue on that repository and provide the following information by filling in
 [the issue template](../templates/issue-template.md).
 
@@ -95,12 +95,12 @@ you're requesting existed.
 * Check if there's already [a component](../openeuropa-components.md) which provides that enhancement.
 * Check the project roadmap to understand if the feature is already being planned for future releases associated dates.
 * Determine [which repository the feature should be suggested in](#before-getting-started).
-* Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Aopeneuropa) to see if the feature has
+* Perform a [cursory search](https://github.com/search?q=org%3Aopeneuropa+is%3Aissue&type=issues) to see if the feature has
   already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How do I submit a (good) feature request?
 
-Feature requests are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined
+Feature requests are tracked as [GitHub issues](https://docs.github.com/en/issues). After you've determined
 [which repository](#before-getting-started) your feature suggestion is related to, create an issue on that repository
 and provide the following information:
 
@@ -114,7 +114,8 @@ and provide the following information:
 ### Pull requests
 
 * Fill in the provided template. You can see a sample [here](../templates/pull-request-template.md).
-* Make sure to include (if not available yet) and run the [Code Review component](https://github.com/openeuropa/code-review)
+* Make sure to include (if not available yet) and run the appropriate Code Review component
+  ([Drupal](https://github.com/openeuropa/code-review-drupal) or [PHP library](https://github.com/openeuropa/code-review-library))
   before submitting the pull request.
 * End all files with a newline.
 
@@ -123,16 +124,17 @@ and provide the following information:
 ### Git commit messages
 
 * If the commit refers to an issue or a ticket, start the comment with the issue or ticket number,
-  then add a colon and a space (e.g. "OPENEUROPA-1234: ").
+  then add a colon and a space (e.g. "OEL-1234: ").
 * Prefer the present tense ("Add feature" not "Added feature").
 * Prefer the imperative mood ("Move element to..." not "Moves element to...").
 * Limit the first line to 72 characters or less.
 * Do not end the first line with a period.
 
-Example of commit message: "OPENEUROPA-1234: Implement automatic feature generator".
+Example of commit message: "OEL-1234: Implement automatic feature generator".
 
 ### Code styling
 
-OpenEuropa provides a specific component to enforce a series of code styling rules. Please make sure that the
-[Code Review component](https://github.com/openeuropa/code-review) is included in the component you are working with and
-that the results are all green before committing anything.
+OpenEuropa provides specific components to enforce a series of code styling rules. Please make sure that the
+appropriate Code Review component ([Drupal](https://github.com/openeuropa/code-review-drupal) or
+[PHP library](https://github.com/openeuropa/code-review-library)) is included in the component you are working with and
+that the results are all green before committing anything. See [Coding standards](../development/coding-standards.md).

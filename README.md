@@ -32,7 +32,6 @@ For more information please check:
   * [Dependency management](docs/development/dependency-management-and-patching.md)
   * [Development Workflow](docs/development/development-workflow.md)
   * [Coding standards](docs/development/coding-standards.md)
-  * [Frontend development](docs/development/frontend/index.md) 
   * [CI And deployment workflow](docs/development/ci-deployment-workflow.md)
   * [Code reviews](docs/development/code-reviews.md)
   * [Release workflow](docs/development/release-workflow.md)
@@ -43,6 +42,6 @@ For more information please check:
     * [Drupal](docs/development/third-party/drupal/index.md)
 * [Automated testing](docs/development/automated-testing.md)
 
-[1]: https://ec.europa.eu/info/departments/informatics
+[1]: https://commission.europa.eu/about/departments-and-executive-agencies/digital-services_en
 [2]: https://opensource.org
-[3]: https://joinup.ec.europa.eu/page/eupl-text-11-12
+[3]: https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12

@@ -4,8 +4,8 @@ Check completed tasks from the checklist below:
 
 - [ ] Reproduced the problem in the component's latest version.
 - [ ] Read the associated Readme and user guides for common solutions.
-- [ ] Checked that your issue isn't already filed [here](https://github.com/issues?utf8=✓&q=is%3Aissue+user%3Aopeneuropa)
-- [ ] Checked that there is not already an OpenEuropa component that provides the described functionality: [OpenEuropa component list](openeuropa-components.md)
+- [ ] Checked that your issue isn't already filed [here](https://github.com/search?q=org%3Aopeneuropa+is%3Aissue&type=issues)
+- [ ] Checked that there is not already an OpenEuropa component that provides the described functionality: [OpenEuropa component list](../openeuropa-components.md)
 
 ### Description
 
